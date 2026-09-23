@@ -1,0 +1,9 @@
+dataset,model,none,control,persona_a,persona_b,persona_c
+TruthfulQA,llama3.1:8b,0,4,6,5,4
+TruthfulQA,mistral,3,1,0,0,0
+TruthfulQA,phi3.5,7,4,5,6,4
+TruthfulQA,qwen2.5:7b,0,0,0,0,0
+MMLU,llama3.1:8b,3,0,20,13,8
+MMLU,mistral,3,8,39,46,42
+MMLU,phi3.5,11,13,27,20,26
+MMLU,qwen2.5:7b,0,0,0,0,0

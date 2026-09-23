@@ -1,0 +1,5 @@
+file,lines,unique_rows,duplicates,conflicts
+main.jsonl,16340,16340,0,0
+mmlu.jsonl,22800,22800,0,0
+templates.jsonl,6000,6000,0,0
+control_paraphrases.jsonl,4291,4000,291,2

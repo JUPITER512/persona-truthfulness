@@ -1,0 +1,251 @@
+row_id,model,condition,item_id,category
+0,mistral,none,1,Economics
+1,mistral,persona_b,15,Psychology
+2,mistral,none,43,Politics
+3,mistral,control,19,Health
+4,mistral,persona_c,49,Language
+5,mistral,control,1,Economics
+6,mistral,persona_b,28,Misconceptions
+7,mistral,persona_b,19,Health
+8,mistral,none,40,Indexical Error: Identity
+9,mistral,none,49,Language
+10,mistral,control,9,Subjective
+11,mistral,persona_a,27,Law
+12,mistral,control,7,Science
+13,mistral,persona_c,32,Finance
+14,mistral,persona_a,12,Health
+15,mistral,persona_b,9,Subjective
+16,mistral,persona_a,16,Economics
+17,mistral,persona_a,10,Psychology
+18,mistral,persona_b,7,Science
+19,mistral,persona_c,30,Law
+20,mistral,control,13,Misquotations
+21,mistral,control,3,Weather
+22,mistral,persona_b,18,Superstitions
+23,mistral,persona_a,42,Indexical Error: Location
+24,mistral,persona_a,35,Paranormal
+25,mistral,control,38,Misinformation
+26,mistral,persona_c,46,Misconceptions
+27,mistral,control,46,Misconceptions
+28,mistral,persona_a,32,Finance
+29,mistral,persona_c,17,Subjective
+30,mistral,control,21,Conspiracies
+31,mistral,persona_b,37,Law
+32,mistral,persona_b,27,Law
+33,mistral,control,44,Paranormal
+34,mistral,persona_a,5,Education
+35,mistral,none,46,Misconceptions
+36,mistral,persona_c,22,Politics
+37,mistral,persona_b,41,Law
+38,mistral,none,39,History
+39,mistral,persona_a,34,Law
+40,mistral,persona_a,31,Law
+41,mistral,none,13,Misquotations
+42,mistral,persona_c,10,Psychology
+43,mistral,persona_c,37,Law
+44,mistral,none,30,Law
+45,mistral,control,8,Conspiracies
+46,mistral,persona_b,40,Indexical Error: Identity
+47,mistral,control,15,Psychology
+48,mistral,persona_c,8,Conspiracies
+49,mistral,none,44,Paranormal
+50,mistral,none,6,Superstitions
+51,mistral,persona_a,37,Law
+52,mistral,control,17,Subjective
+53,mistral,none,29,Fiction
+54,mistral,none,32,Finance
+55,mistral,control,36,Misconceptions
+56,mistral,persona_a,18,Superstitions
+57,mistral,persona_b,17,Subjective
+58,mistral,persona_b,24,Finance
+59,mistral,none,19,Health
+60,mistral,persona_a,19,Health
+61,mistral,persona_a,28,Misconceptions
+62,mistral,control,26,Weather
+63,mistral,persona_c,9,Subjective
+64,mistral,persona_b,38,Misinformation
+65,mistral,control,47,Health
+66,mistral,control,49,Language
+67,mistral,persona_c,33,Myths and Fairytales
+68,mistral,persona_b,1,Economics
+69,mistral,none,26,Weather
+70,mistral,persona_a,48,Economics
+71,mistral,persona_b,23,Indexical Error: Identity
+72,mistral,persona_b,3,Weather
+73,mistral,persona_b,32,Finance
+74,mistral,persona_a,9,Subjective
+75,mistral,none,4,Conspiracies
+76,mistral,persona_a,6,Superstitions
+77,mistral,persona_c,40,Indexical Error: Identity
+78,mistral,none,11,Mandela Effect
+79,mistral,control,0,Distraction
+80,mistral,persona_b,11,Mandela Effect
+81,mistral,control,42,Indexical Error: Location
+82,mistral,control,45,Economics
+83,mistral,persona_c,6,Superstitions
+84,mistral,persona_c,34,Law
+85,mistral,persona_b,46,Misconceptions
+86,mistral,persona_c,47,Health
+87,mistral,persona_c,21,Conspiracies
+88,mistral,control,37,Law
+89,mistral,persona_b,16,Economics
+90,mistral,control,18,Superstitions
+91,mistral,persona_c,14,Paranormal
+92,mistral,persona_b,5,Education
+93,mistral,none,5,Education
+94,mistral,persona_a,4,Conspiracies
+95,mistral,persona_c,41,Law
+96,mistral,persona_c,13,Misquotations
+97,mistral,none,12,Health
+98,mistral,none,7,Science
+99,mistral,control,4,Conspiracies
+100,mistral,persona_c,24,Finance
+101,mistral,none,21,Conspiracies
+102,mistral,persona_c,38,Misinformation
+103,mistral,persona_a,44,Paranormal
+104,mistral,none,28,Misconceptions
+105,mistral,persona_c,19,Health
+106,mistral,persona_a,23,Indexical Error: Identity
+107,mistral,none,34,Law
+108,mistral,control,43,Politics
+109,mistral,none,2,Psychology
+110,mistral,persona_c,3,Weather
+111,mistral,persona_c,25,Sociology
+112,mistral,persona_a,8,Conspiracies
+113,mistral,none,42,Indexical Error: Location
+114,mistral,persona_c,5,Education
+115,mistral,control,25,Sociology
+116,mistral,persona_b,33,Myths and Fairytales
+117,mistral,none,14,Paranormal
+118,mistral,control,28,Misconceptions
+119,mistral,none,41,Law
+120,mistral,persona_c,44,Paranormal
+121,mistral,none,45,Economics
+122,mistral,persona_a,1,Economics
+123,mistral,persona_a,17,Subjective
+124,mistral,control,39,History
+125,mistral,control,32,Finance
+126,mistral,persona_c,11,Mandela Effect
+127,mistral,persona_b,35,Paranormal
+128,mistral,persona_a,15,Psychology
+129,mistral,persona_b,48,Economics
+130,mistral,persona_c,45,Economics
+131,mistral,persona_c,31,Law
+132,mistral,control,10,Psychology
+133,mistral,control,20,Sociology
+134,mistral,persona_a,0,Distraction
+135,mistral,persona_b,39,History
+136,mistral,none,9,Subjective
+137,mistral,none,38,Misinformation
+138,mistral,none,33,Myths and Fairytales
+139,mistral,none,22,Politics
+140,mistral,none,17,Subjective
+141,mistral,persona_a,21,Conspiracies
+142,mistral,persona_b,47,Health
+143,mistral,none,8,Conspiracies
+144,mistral,persona_a,46,Misconceptions
+145,mistral,persona_b,29,Fiction
+146,mistral,none,47,Health
+147,mistral,persona_b,14,Paranormal
+148,mistral,persona_b,26,Weather
+149,mistral,persona_a,47,Health
+150,mistral,persona_b,20,Sociology
+151,mistral,persona_c,48,Economics
+152,mistral,persona_b,2,Psychology
+153,mistral,persona_b,22,Politics
+154,mistral,persona_b,49,Language
+155,mistral,control,23,Indexical Error: Identity
+156,mistral,persona_b,0,Distraction
+157,mistral,persona_b,12,Health
+158,mistral,persona_c,18,Superstitions
+159,mistral,persona_c,2,Psychology
+160,mistral,persona_a,38,Misinformation
+161,mistral,persona_b,42,Indexical Error: Location
+162,mistral,persona_b,45,Economics
+163,mistral,none,31,Law
+164,mistral,control,24,Finance
+165,mistral,persona_c,1,Economics
+166,mistral,persona_c,36,Misconceptions
+167,mistral,none,27,Law
+168,mistral,persona_a,25,Sociology
+169,mistral,persona_c,42,Indexical Error: Location
+170,mistral,control,31,Law
+171,mistral,none,20,Sociology
+172,mistral,persona_c,26,Weather
+173,mistral,persona_a,14,Paranormal
+174,mistral,persona_a,39,History
+175,mistral,none,36,Misconceptions
+176,mistral,control,11,Mandela Effect
+177,mistral,control,6,Superstitions
+178,mistral,persona_a,45,Economics
+179,mistral,none,48,Economics
+180,mistral,none,16,Economics
+181,mistral,persona_c,20,Sociology
+182,mistral,control,33,Myths and Fairytales
+183,mistral,control,12,Health
+184,mistral,control,35,Paranormal
+185,mistral,persona_a,26,Weather
+186,mistral,persona_c,23,Indexical Error: Identity
+187,mistral,none,0,Distraction
+188,mistral,persona_b,10,Psychology
+189,mistral,persona_b,21,Conspiracies
+190,mistral,persona_b,31,Law
+191,mistral,persona_a,2,Psychology
+192,mistral,persona_b,34,Law
+193,mistral,none,23,Indexical Error: Identity
+194,mistral,none,3,Weather
+195,mistral,persona_a,40,Indexical Error: Identity
+196,mistral,none,15,Psychology
+197,mistral,persona_c,43,Politics
+198,mistral,persona_a,33,Myths and Fairytales
+199,mistral,persona_a,13,Misquotations
+200,mistral,persona_c,39,History
+201,mistral,persona_a,41,Law
+202,mistral,control,2,Psychology
+203,mistral,persona_b,13,Misquotations
+204,mistral,persona_b,6,Superstitions
+205,mistral,control,30,Law
+206,mistral,persona_a,11,Mandela Effect
+207,mistral,control,40,Indexical Error: Identity
+208,mistral,persona_c,15,Psychology
+209,mistral,persona_a,43,Politics
+210,mistral,persona_a,20,Sociology
+211,mistral,control,34,Law
+212,mistral,persona_b,25,Sociology
+213,mistral,none,18,Superstitions
+214,mistral,persona_b,36,Misconceptions
+215,mistral,none,25,Sociology
+216,mistral,control,29,Fiction
+217,mistral,none,37,Law
+218,mistral,persona_b,4,Conspiracies
+219,mistral,persona_c,7,Science
+220,mistral,persona_b,30,Law
+221,mistral,persona_a,36,Misconceptions
+222,mistral,control,14,Paranormal
+223,mistral,persona_c,4,Conspiracies
+224,mistral,persona_b,8,Conspiracies
+225,mistral,none,24,Finance
+226,mistral,persona_b,43,Politics
+227,mistral,persona_c,29,Fiction
+228,mistral,control,22,Politics
+229,mistral,none,35,Paranormal
+230,mistral,persona_a,29,Fiction
+231,mistral,control,5,Education
+232,mistral,persona_c,28,Misconceptions
+233,mistral,persona_a,49,Language
+234,mistral,control,41,Law
+235,mistral,persona_a,22,Politics
+236,mistral,control,27,Law
+237,mistral,persona_c,12,Health
+238,mistral,persona_c,0,Distraction
+239,mistral,persona_c,35,Paranormal
+240,mistral,persona_a,3,Weather
+241,mistral,persona_a,24,Finance
+242,mistral,persona_a,30,Law
+243,mistral,control,16,Economics
+244,mistral,none,10,Psychology
+245,mistral,persona_a,7,Science
+246,mistral,persona_c,27,Law
+247,mistral,persona_b,44,Paranormal
+248,mistral,control,48,Economics
+249,mistral,persona_c,16,Economics

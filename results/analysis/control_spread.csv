@@ -1,0 +1,5 @@
+model,control_min,control_max,control_spread_pp,persona_spread_pp,n_complete_paraphrases
+llama3.1:8b,41.00,49.00,8.00,8.00,10
+mistral,45.00,50.00,5.00,5.00,10
+phi3.5,49.00,52.00,3.00,5.00,10
+qwen2.5:7b,63.00,67.00,4.00,9.00,10

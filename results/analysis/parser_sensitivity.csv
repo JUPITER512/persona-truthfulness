@@ -1,0 +1,13 @@
+model,persona,difference_pp_stored,difference_pp_corrected
+llama3.1:8b,persona_a,2.53,2.41
+llama3.1:8b,persona_b,6.10,5.97
+llama3.1:8b,persona_c,4.45,4.33
+mistral,persona_a,8.81,8.81
+mistral,persona_b,12.20,12.29
+mistral,persona_c,10.13,10.13
+phi3.5,persona_a,1.87,1.79
+phi3.5,persona_b,2.45,2.36
+phi3.5,persona_c,3.40,3.31
+qwen2.5:7b,persona_a,-0.26,-0.26
+qwen2.5:7b,persona_b,3.33,3.33
+qwen2.5:7b,persona_c,0.27,0.27

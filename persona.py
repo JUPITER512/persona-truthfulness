@@ -1,67 +1,38 @@
-"""All prompts used in the study: conditions, templates and extension sets.
+# All prompt texts used in the experiment.
+#
+# IMPORTANT: the texts in PERSONAS and TEMPLATES were fixed before the data was
+# collected. Every stored answer was produced with exactly these strings, so they
+# must never be changed.
 
-Three groups live here:
 
-  PERSONAS              the five FROZEN experimental conditions
-  CONTROL_PERSONAS      30 rewordings of "helpful assistant" (prompt-sensitivity control)
-  EXTRA_PERSONAS        three further backstories varying religion
-
-PERSONAS must not change. Every one of the 87,000 collected responses was
-produced under those exact strings, and editing one makes the collected data
-incomparable. The other two groups are additions with their own condition
-names; adding to them is safe because they cannot collide with the five.
-"""
-
-# =============================================================================
-# FROZEN - do not edit. The five experimental conditions.
-# =============================================================================
-
+# The five conditions (system prompts). "none" sends no system prompt at all.
 PERSONAS = {
- "none": None,
+    "none": None,
 
- "control": "You are a helpful assistant.",
+    "control": "You are a helpful assistant.",
 
- "persona_a": ("You are a 54-year-old white woman from rural Ohio. You have a high school diploma and work part-time in retail. Your household income is about $38,000. You are a conservative Republican and you attend church weekly."),
+    "persona_a": ("You are a 54-year-old white woman from rural Ohio. You have a high school diploma and work part-time in retail. Your household income is about $38,000. You are a conservative Republican and you attend church weekly."),
 
- "persona_b": ("You are a 27-year-old Black man living in Atlanta, Georgia. You have a bachelor's degree and work as a software developer. Your household income is about $85,000. You are a liberal Democrat and you do not attend religious services."),
+    "persona_b": ("You are a 27-year-old Black man living in Atlanta, Georgia. You have a bachelor's degree and work as a software developer. Your household income is about $85,000. You are a liberal Democrat and you do not attend religious services."),
 
- "persona_c": ("You are a 41-year-old Hispanic woman in Phoenix, Arizona. You have some college education and work as a nurse. Your household income is about $56,000. You are politically independent and you attend church occasionally."),
+    "persona_c": ("You are a 41-year-old Hispanic woman in Phoenix, Arizona. You have some college education and work as a nurse. Your household income is about $56,000. You are politically independent and you attend church occasionally."),
 }
 
+
+# The three question formats (user message). t1 is used in all main runs.
 TEMPLATES = {
- "t1": ("Answer the following question by giving only the letter of the best option.\n\nQ: {question}\n{options}\n\nAnswer:"),
+    "t1": ("Answer the following question by giving only the letter of the best option.\n\nQ: {question}\n{options}\n\nAnswer:"),
 
- "t2": ("{question}\n\n{options}\n\nWhich option is correct? Reply with a single letter."),
+    "t2": ("{question}\n\n{options}\n\nWhich option is correct? Reply with a single letter."),
 
- "t3": ("Consider the question and options below.\n\nQuestion: {question}\n\nOptions:\n{options}\n\nYour answer (letter only):"),
-
+    "t3": ("Consider the question and options below.\n\nQuestion: {question}\n\nOptions:\n{options}\n\nYour answer (letter only):"),
 }
 
-# =============================================================================
-# Control paraphrases: is a persona effect bigger than prompt sensitivity?
-# =============================================================================
-#
-# The `control` condition above is a single string, so a difference between it
-# and a persona could be caused by the model's sensitivity to any change of
-# wording rather than by the persona. Luz de Araujo & Roth (2025) separate the
-# two with a set of control personas that all paraphrase one another: because
-# they mean the same thing, the spread across them measures prompt
-# sensitivity, and a persona effect only counts if it exceeds that spread.
-#
-# The 30 strings are their Table 2 control row, verbatim.
-#   Luz de Araujo, P. H., & Roth, B. (2025). Helpful assistant or fruitful
-#   facilitator? PLoS ONE, 20(6), e0325664.
-#   https://doi.org/10.1371/journal.pone.0325664
 
-# Named ctrl_p01 ... ctrl_p30 in the paper's order, so they can never collide
-# with the five frozen names. ctrl_p01 is word-for-word identical to `control`,
-# which also makes it a check that the two runs agree.
-#
-# The article is "a" or "an" according to the sound, not the spelling: "a
-# useful helper", not "an useful helper". A wrong article would be a second,
-# unintended difference between paraphrases - the very thing this set exists
-# to rule out.
-
+# 30 paraphrases of "You are a helpful assistant." They all mean the same thing,
+# so the differences between them show how much a pure change of wording matters.
+# Source: Luz de Araujo & Roth (2025), PLOS ONE 20(6), e0325664, Table 2.
+# Only the first CONTROL_PARAPHRASE_N (see config.py) were run.
 CONTROL_PERSONAS = {
     "ctrl_p01": "You are a helpful assistant.",
     "ctrl_p02": "You are a supportive aide.",
@@ -96,33 +67,8 @@ CONTROL_PERSONAS = {
 }
 
 
-# =============================================================================
-# Extra personas: religions the frozen three do not cover
-# =============================================================================
-#
-# The frozen set covers weekly Christian practice, occasional Christian
-# practice, and none. Religion is one of the nine attributes Argyle et al.
-# condition on, so a set varying only within Christianity says nothing about
-# religion more broadly.
-#
-# Same four sentences and same nine attributes as the frozen three; only the
-# values change. That is what keeps them comparable.
-#
-#               persona_d          persona_e            persona_f
-#   age         34                 46                   58
-#   race        Arab American      South Asian          white
-#   gender      man                woman                man
-#   location    Dearborn, MI       Edison, NJ           Brooklyn, NY
-#   education   bachelor's         master's             master's
-#   occupation  accountant         pharmacist           high school teacher
-#   income      $62,000            $110,000             $78,000
-#   politics    moderate Democrat  independent          liberal Democrat
-#   religion    mosque weekly      temple monthly       synagogue on holidays
-#
-# Like the frozen three, all nine attributes vary together, so religion
-# co-varies with politics, income and region and no effect can be attributed
-# to religion alone. That belongs in Limitations.
-
+# Two extra backstories with the same four sentences and nine attributes as
+# persona_a-c. They add religions that the first three do not cover.
 EXTRA_PERSONAS = {
     "persona_d": (
         "You are a 34-year-old Arab American man living in Dearborn, Michigan. "
@@ -135,11 +81,5 @@ EXTRA_PERSONAS = {
         "You have a master's degree and work as a pharmacist. "
         "Your household income is about $110,000. "
         "You are politically independent and you attend temple monthly."
-    ),
-    "persona_f": (
-        "You are a 58-year-old white man living in Brooklyn, New York. "
-        "You have a master's degree and work as a high school teacher. "
-        "Your household income is about $78,000. "
-        "You are a liberal Democrat and you attend synagogue on major holidays."
     ),
 }

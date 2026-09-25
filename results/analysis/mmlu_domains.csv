@@ -1,0 +1,17 @@
+domain,model,mean_persona_delta_pp
+STEM,llama3.1:8b,-3.98
+STEM,mistral,-5.46
+STEM,phi3.5,-1.39
+STEM,qwen2.5:7b,-1.39
+humanities,llama3.1:8b,-0.77
+humanities,mistral,-1.15
+humanities,phi3.5,-0.38
+humanities,qwen2.5:7b,0.38
+social sciences,llama3.1:8b,-3.61
+social sciences,mistral,-3.33
+social sciences,phi3.5,-1.53
+social sciences,qwen2.5:7b,-1.67
+other,llama3.1:8b,-5.83
+other,mistral,-4.40
+other,phi3.5,-0.71
+other,qwen2.5:7b,-2.50

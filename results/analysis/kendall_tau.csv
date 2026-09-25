@@ -1,0 +1,17 @@
+comparison,model_a,model_b,tau,p
+across_tasks,llama3.1:8b,,0.2000,0.8167
+across_tasks,mistral,,-0.8000,0.0833
+across_tasks,phi3.5,,-0.6000,0.2333
+across_tasks,qwen2.5:7b,,0.0000,1.0000
+across_models_TruthfulQA,llama3.1:8b,mistral,0.4000,0.4833
+across_models_TruthfulQA,llama3.1:8b,phi3.5,0.2000,0.8167
+across_models_TruthfulQA,llama3.1:8b,qwen2.5:7b,0.8000,0.0833
+across_models_TruthfulQA,mistral,phi3.5,0.8000,0.0833
+across_models_TruthfulQA,mistral,qwen2.5:7b,0.2000,0.8167
+across_models_TruthfulQA,phi3.5,qwen2.5:7b,0.0000,1.0000
+across_models_MMLU,llama3.1:8b,mistral,0.6000,0.2333
+across_models_MMLU,llama3.1:8b,phi3.5,0.6000,0.2333
+across_models_MMLU,llama3.1:8b,qwen2.5:7b,0.6000,0.2333
+across_models_MMLU,mistral,phi3.5,0.2000,0.8167
+across_models_MMLU,mistral,qwen2.5:7b,0.6000,0.2333
+across_models_MMLU,phi3.5,qwen2.5:7b,0.2000,0.8167

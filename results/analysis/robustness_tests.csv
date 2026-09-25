@@ -1,0 +1,37 @@
+comparison,model,n,acc_a,acc_b,b,c,p,note,p_bh,significant_bh
+shuffled_vs_unshuffled,llama3.1:8b,500,0.4920,0.4800,34,28,5.254e-01,A share 0.144 -> 0.484,1.000e+00,ns
+shuffled_vs_unshuffled,mistral,500,0.4960,0.5340,51,70,1.018e-01,A share 0.136 -> 0.534,5.090e-01,ns
+shuffled_vs_unshuffled,phi3.5,500,0.5260,0.4900,37,19,2.310e-02,A share 0.167 -> 0.497,1.707e-01,ns
+shuffled_vs_unshuffled,qwen2.5:7b,500,0.6540,0.6140,45,25,2.315e-02,A share 0.148 -> 0.614,1.707e-01,ns
+persona_effect_by_ordering,llama3.1:8b,100,6.00,4.00,,,,persona_a: shuffled vs unshuffled delta (pp),,
+persona_effect_by_ordering,llama3.1:8b,100,4.00,3.00,,,,persona_b: shuffled vs unshuffled delta (pp),,
+persona_effect_by_ordering,llama3.1:8b,100,7.00,2.00,,,,persona_c: shuffled vs unshuffled delta (pp),,
+persona_effect_by_ordering,mistral,100,-3.00,3.00,,,,persona_a: shuffled vs unshuffled delta (pp),,
+persona_effect_by_ordering,mistral,100,0.00,-2.00,,,,persona_b: shuffled vs unshuffled delta (pp),,
+persona_effect_by_ordering,mistral,100,2.00,2.00,,,,persona_c: shuffled vs unshuffled delta (pp),,
+persona_effect_by_ordering,phi3.5,100,1.00,3.00,,,,persona_a: shuffled vs unshuffled delta (pp),,
+persona_effect_by_ordering,phi3.5,100,4.00,6.00,,,,persona_b: shuffled vs unshuffled delta (pp),,
+persona_effect_by_ordering,phi3.5,100,4.00,5.00,,,,persona_c: shuffled vs unshuffled delta (pp),,
+persona_effect_by_ordering,qwen2.5:7b,100,-7.00,-2.00,,,,persona_a: shuffled vs unshuffled delta (pp),,
+persona_effect_by_ordering,qwen2.5:7b,100,2.00,1.00,,,,persona_b: shuffled vs unshuffled delta (pp),,
+persona_effect_by_ordering,qwen2.5:7b,100,-2.00,-2.00,,,,persona_c: shuffled vs unshuffled delta (pp),,
+greedy_vs_temp_1.jsonl,llama3.1:8b,500,0.4920,0.4600,74,58,1.917e-01,,6.390e-01,ns
+greedy_vs_temp_1.jsonl,mistral,500,0.4960,0.4960,27,27,8.918e-01,,1.000e+00,ns
+greedy_vs_temp_1.jsonl,phi3.5,500,0.5260,0.4900,38,20,2.560e-02,,1.707e-01,ns
+greedy_vs_temp_1.jsonl,qwen2.5:7b,500,0.6540,0.6360,20,11,1.508e-01,,6.032e-01,ns
+greedy_vs_temp_2.jsonl,llama3.1:8b,500,0.4920,0.4920,0,0,1.000e+00,,1.000e+00,ns
+greedy_vs_temp_2.jsonl,mistral,500,0.4960,0.4960,0,0,1.000e+00,,1.000e+00,ns
+greedy_vs_temp_2.jsonl,phi3.5,500,0.5260,0.5240,1,0,1.000e+00,,1.000e+00,ns
+greedy_vs_temp_2.jsonl,qwen2.5:7b,500,0.6540,0.6540,0,0,1.000e+00,,1.000e+00,ns
+greedy_vs_temp_3.jsonl,llama3.1:8b,500,0.4920,0.4920,0,0,1.000e+00,,1.000e+00,ns
+greedy_vs_temp_3.jsonl,mistral,500,0.4960,0.4960,0,0,1.000e+00,,1.000e+00,ns
+greedy_vs_temp_3.jsonl,phi3.5,500,0.5260,0.5260,0,0,1.000e+00,,1.000e+00,ns
+greedy_vs_temp_3.jsonl,qwen2.5:7b,500,0.6540,0.6540,0,0,1.000e+00,,1.000e+00,ns
+repeat_run,llama3.1:8b,500,0.4920,0.4920,0,0,1.000e+00,raw identical 500,1.000e+00,ns
+repeat_run,mistral,500,0.4960,0.4960,0,0,1.000e+00,raw identical 500,1.000e+00,ns
+repeat_run,phi3.5,500,0.5260,0.5260,0,0,1.000e+00,raw identical 500,1.000e+00,ns
+repeat_run,qwen2.5:7b,500,0.6540,0.6540,0,0,1.000e+00,raw identical 500,1.000e+00,ns
+pilot_vs_main,llama3.1:8b,250,,,,,,answers 250 raw 250,,
+pilot_vs_main,mistral,250,,,,,,answers 250 raw 250,,
+pilot_vs_main,phi3.5,250,,,,,,answers 250 raw 250,,
+pilot_vs_main,qwen2.5:7b,250,,,,,,answers 250 raw 250,,

@@ -1,5 +1,19 @@
+# Python
 venv/
+.venv/
 __pycache__/
 *.pyc
+
+# Editors and operating system
+.vscode/
+.idea/
 .DS_Store
+Thumbs.db
+
+# Private files: never publish
 .env
+CLAUDE.md
+tet.py
+
+# Office lock files
+~$*

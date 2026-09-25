@@ -3,3 +3,10 @@ main.jsonl,16340,16340,0,0
 mmlu.jsonl,22800,22800,0,0
 templates.jsonl,6000,6000,0,0
 control_paraphrases.jsonl,4291,4000,291,2
+shuffle.jsonl,2000,2000,0,0
+noshuffle.jsonl,2000,2000,0,0
+temp_1.jsonl,2000,2000,0,0
+temp_2.jsonl,2000,2000,0,0
+temp_3.jsonl,2000,2000,0,0
+extra_personas_tqa.jsonl,19608,19608,0,0
+extra_personas_mmlu.jsonl,27360,27360,0,0

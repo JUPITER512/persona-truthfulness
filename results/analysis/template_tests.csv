@@ -1,0 +1,57 @@
+model,comparison,test,n_or_counts,statistic_or_delta,p,p_bh,significant_bh
+llama3.1:8b,none,cochran_q t1/t2/t3,100,9.172,1.019e-02,1.169e-01,False
+llama3.1:8b,control,cochran_q t1/t2/t3,100,8.087,1.754e-02,1.169e-01,False
+llama3.1:8b,persona_a,cochran_q t1/t2/t3,100,4.750,9.301e-02,2.067e-01,False
+llama3.1:8b,persona_b,cochran_q t1/t2/t3,100,0.125,9.394e-01,9.394e-01,False
+llama3.1:8b,persona_c,cochran_q t1/t2/t3,100,2.000,3.679e-01,3.872e-01,False
+mistral,none,cochran_q t1/t2/t3,100,6.080,4.783e-02,1.594e-01,False
+mistral,control,cochran_q t1/t2/t3,100,4.800,9.072e-02,2.067e-01,False
+mistral,persona_a,cochran_q t1/t2/t3,100,3.273,1.947e-01,3.064e-01,False
+mistral,persona_b,cochran_q t1/t2/t3,100,2.471,2.907e-01,3.408e-01,False
+mistral,persona_c,cochran_q t1/t2/t3,100,8.444,1.467e-02,1.169e-01,False
+phi3.5,none,cochran_q t1/t2/t3,100,3.167,2.053e-01,3.064e-01,False
+phi3.5,control,cochran_q t1/t2/t3,100,2.400,3.012e-01,3.408e-01,False
+phi3.5,persona_a,cochran_q t1/t2/t3,100,4.429,1.092e-01,2.185e-01,False
+phi3.5,persona_b,cochran_q t1/t2/t3,100,5.538,6.271e-02,1.792e-01,False
+phi3.5,persona_c,cochran_q t1/t2/t3,100,6.200,4.505e-02,1.594e-01,False
+qwen2.5:7b,none,cochran_q t1/t2/t3,100,3.000,2.231e-01,3.064e-01,False
+qwen2.5:7b,control,cochran_q t1/t2/t3,100,2.364,3.067e-01,3.408e-01,False
+qwen2.5:7b,persona_a,cochran_q t1/t2/t3,100,7.176,2.765e-02,1.382e-01,False
+qwen2.5:7b,persona_b,cochran_q t1/t2/t3,100,2.941,2.298e-01,3.064e-01,False
+qwen2.5:7b,persona_c,cochran_q t1/t2/t3,100,3.263,1.956e-01,3.064e-01,False
+llama3.1:8b,t1 persona_a vs none,mcnemar,b=7 c=13,6.00,2.632e-01,9.460e-01,False
+llama3.1:8b,t1 persona_b vs none,mcnemar,b=8 c=12,4.00,5.034e-01,1.000e+00,False
+llama3.1:8b,t1 persona_c vs none,mcnemar,b=7 c=14,7.00,1.892e-01,9.460e-01,False
+mistral,t1 persona_a vs none,mcnemar,b=7 c=5,-2.00,7.744e-01,1.000e+00,False
+mistral,t1 persona_b vs none,mcnemar,b=8 c=9,1.00,1.000e+00,1.000e+00,False
+mistral,t1 persona_c vs none,mcnemar,b=5 c=8,3.00,5.811e-01,1.000e+00,False
+phi3.5,t1 persona_a vs none,mcnemar,b=3 c=4,1.00,1.000e+00,1.000e+00,False
+phi3.5,t1 persona_b vs none,mcnemar,b=3 c=7,4.00,3.438e-01,9.519e-01,False
+phi3.5,t1 persona_c vs none,mcnemar,b=2 c=6,4.00,2.891e-01,9.460e-01,False
+qwen2.5:7b,t1 persona_a vs none,mcnemar,b=10 c=3,-7.00,9.229e-02,6.645e-01,False
+qwen2.5:7b,t1 persona_b vs none,mcnemar,b=6 c=8,2.00,7.905e-01,1.000e+00,False
+qwen2.5:7b,t1 persona_c vs none,mcnemar,b=7 c=5,-2.00,7.744e-01,1.000e+00,False
+llama3.1:8b,t2 persona_a vs none,mcnemar,b=22 c=5,-17.00,2.076e-03,7.472e-02,False
+llama3.1:8b,t2 persona_b vs none,mcnemar,b=18 c=9,-9.00,1.237e-01,7.419e-01,False
+llama3.1:8b,t2 persona_c vs none,mcnemar,b=16 c=6,-10.00,5.248e-02,6.297e-01,False
+mistral,t2 persona_a vs none,mcnemar,b=12 c=4,-8.00,7.681e-02,6.645e-01,False
+mistral,t2 persona_b vs none,mcnemar,b=7 c=3,-4.00,3.438e-01,9.519e-01,False
+mistral,t2 persona_c vs none,mcnemar,b=10 c=1,-9.00,1.172e-02,2.109e-01,False
+phi3.5,t2 persona_a vs none,mcnemar,b=6 c=4,-2.00,7.539e-01,1.000e+00,False
+phi3.5,t2 persona_b vs none,mcnemar,b=4 c=6,2.00,7.539e-01,1.000e+00,False
+phi3.5,t2 persona_c vs none,mcnemar,b=3 c=6,3.00,5.078e-01,1.000e+00,False
+qwen2.5:7b,t2 persona_a vs none,mcnemar,b=10 c=7,-3.00,6.291e-01,1.000e+00,False
+qwen2.5:7b,t2 persona_b vs none,mcnemar,b=7 c=9,2.00,8.036e-01,1.000e+00,False
+qwen2.5:7b,t2 persona_c vs none,mcnemar,b=8 c=7,-1.00,1.000e+00,1.000e+00,False
+llama3.1:8b,t3 persona_a vs none,mcnemar,b=12 c=8,-4.00,5.034e-01,1.000e+00,False
+llama3.1:8b,t3 persona_b vs none,mcnemar,b=7 c=8,1.00,1.000e+00,1.000e+00,False
+llama3.1:8b,t3 persona_c vs none,mcnemar,b=6 c=9,3.00,6.072e-01,1.000e+00,False
+mistral,t3 persona_a vs none,mcnemar,b=6 c=2,-4.00,2.891e-01,9.460e-01,False
+mistral,t3 persona_b vs none,mcnemar,b=8 c=9,1.00,1.000e+00,1.000e+00,False
+mistral,t3 persona_c vs none,mcnemar,b=6 c=3,-3.00,5.078e-01,1.000e+00,False
+phi3.5,t3 persona_a vs none,mcnemar,b=4 c=2,-2.00,6.875e-01,1.000e+00,False
+phi3.5,t3 persona_b vs none,mcnemar,b=3 c=4,1.00,1.000e+00,1.000e+00,False
+phi3.5,t3 persona_c vs none,mcnemar,b=2 c=4,2.00,6.875e-01,1.000e+00,False
+qwen2.5:7b,t3 persona_a vs none,mcnemar,b=14 c=8,-6.00,2.863e-01,9.460e-01,False
+qwen2.5:7b,t3 persona_b vs none,mcnemar,b=10 c=8,-2.00,8.145e-01,1.000e+00,False
+qwen2.5:7b,t3 persona_c vs none,mcnemar,b=9 c=8,-1.00,1.000e+00,1.000e+00,False

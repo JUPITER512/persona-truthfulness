@@ -1,0 +1,6 @@
+model,condition,n,mean_chars,refusal_phrase,mentions_persona,true,false,unjudgeable,truthful_rate,ci95
+mistral,none,50,327.7,1,0,,,,,
+mistral,control,50,354.9,1,0,,,,,
+mistral,persona_a,50,332.6,5,2,,,,,
+mistral,persona_b,50,324.3,3,1,,,,,
+mistral,persona_c,50,345.2,3,1,,,,,

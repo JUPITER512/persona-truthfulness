@@ -1,0 +1,105 @@
+dataset,model,test,comparison,statistic,p_value,note
+TruthfulQA,llama3.1:8b,cochran_q,,18.2510,1.102e-03,817
+TruthfulQA,mistral,cochran_q,,55.8477,2.158e-11,817
+TruthfulQA,phi3.5,cochran_q,,9.4737,5.029e-02,817
+TruthfulQA,qwen2.5:7b,cochran_q,,15.0517,4.595e-03,817
+TruthfulQA,llama3.1:8b,mcnemar,none vs persona_a,b=68 c=55,2.793e-01,chi2+cc
+TruthfulQA,llama3.1:8b,mcnemar,none vs persona_b,b=55 c=79,4.693e-02,chi2+cc
+TruthfulQA,llama3.1:8b,mcnemar,none vs persona_c,b=54 c=61,5.758e-01,chi2+cc
+TruthfulQA,llama3.1:8b,mcnemar,control vs persona_a,b=63 c=62,1.000e+00,chi2+cc
+TruthfulQA,llama3.1:8b,mcnemar,control vs persona_b,b=46 c=82,1.977e-03,chi2+cc
+TruthfulQA,llama3.1:8b,mcnemar,control vs persona_c,b=45 c=64,8.469e-02,chi2+cc
+TruthfulQA,mistral,mcnemar,none vs persona_a,b=47 c=91,2.518e-04,chi2+cc
+TruthfulQA,mistral,mcnemar,none vs persona_b,b=40 c=101,4.351e-07,chi2+cc
+TruthfulQA,mistral,mcnemar,none vs persona_c,b=37 c=94,9.944e-07,chi2+cc
+TruthfulQA,mistral,mcnemar,control vs persona_a,b=52 c=79,2.311e-02,chi2+cc
+TruthfulQA,mistral,mcnemar,control vs persona_b,b=42 c=86,1.443e-04,chi2+cc
+TruthfulQA,mistral,mcnemar,control vs persona_c,b=40 c=80,3.706e-04,chi2+cc
+TruthfulQA,phi3.5,mcnemar,none vs persona_a,b=28 c=34,5.254e-01,chi2+cc
+TruthfulQA,phi3.5,mcnemar,none vs persona_b,b=25 c=40,8.248e-02,chi2+cc
+TruthfulQA,phi3.5,mcnemar,none vs persona_c,b=19 c=36,3.097e-02,chi2+cc
+TruthfulQA,phi3.5,mcnemar,control vs persona_a,b=27 c=31,6.936e-01,chi2+cc
+TruthfulQA,phi3.5,mcnemar,control vs persona_b,b=26 c=39,1.366e-01,chi2+cc
+TruthfulQA,phi3.5,mcnemar,control vs persona_c,b=19 c=34,5.447e-02,chi2+cc
+TruthfulQA,qwen2.5:7b,mcnemar,none vs persona_a,b=52 c=37,1.378e-01,chi2+cc
+TruthfulQA,qwen2.5:7b,mcnemar,none vs persona_b,b=35 c=50,1.289e-01,chi2+cc
+TruthfulQA,qwen2.5:7b,mcnemar,none vs persona_c,b=39 c=34,6.397e-01,chi2+cc
+TruthfulQA,qwen2.5:7b,mcnemar,control vs persona_a,b=44 c=36,4.338e-01,chi2+cc
+TruthfulQA,qwen2.5:7b,mcnemar,control vs persona_b,b=30 c=52,2.039e-02,chi2+cc
+TruthfulQA,qwen2.5:7b,mcnemar,control vs persona_c,b=34 c=36,9.049e-01,chi2+cc
+MMLU,llama3.1:8b,cochran_q,,24.8245,5.457e-05,1140
+MMLU,mistral,cochran_q,,46.2541,2.180e-09,1140
+MMLU,phi3.5,cochran_q,,4.9176,2.959e-01,1140
+MMLU,qwen2.5:7b,cochran_q,,14.8788,4.959e-03,1140
+MMLU,llama3.1:8b,mcnemar,none vs persona_a,b=107 c=60,3.714e-04,chi2+cc
+MMLU,llama3.1:8b,mcnemar,none vs persona_b,b=95 c=59,4.797e-03,chi2+cc
+MMLU,llama3.1:8b,mcnemar,none vs persona_c,b=99 c=58,1.411e-03,chi2+cc
+MMLU,llama3.1:8b,mcnemar,control vs persona_a,b=78 c=50,1.701e-02,chi2+cc
+MMLU,llama3.1:8b,mcnemar,control vs persona_b,b=64 c=47,1.288e-01,chi2+cc
+MMLU,llama3.1:8b,mcnemar,control vs persona_c,b=67 c=45,4.722e-02,chi2+cc
+MMLU,mistral,mcnemar,none vs persona_a,b=85 c=46,8.999e-04,chi2+cc
+MMLU,mistral,mcnemar,none vs persona_b,b=93 c=39,3.968e-06,chi2+cc
+MMLU,mistral,mcnemar,none vs persona_c,b=79 c=43,1.531e-03,chi2+cc
+MMLU,mistral,mcnemar,control vs persona_a,b=76 c=40,1.155e-03,chi2+cc
+MMLU,mistral,mcnemar,control vs persona_b,b=85 c=34,4.573e-06,chi2+cc
+MMLU,mistral,mcnemar,control vs persona_c,b=72 c=39,2.387e-03,chi2+cc
+MMLU,phi3.5,mcnemar,none vs persona_a,b=41 c=28,1.486e-01,chi2+cc
+MMLU,phi3.5,mcnemar,none vs persona_b,b=37 c=30,4.635e-01,chi2+cc
+MMLU,phi3.5,mcnemar,none vs persona_c,b=41 c=26,8.720e-02,chi2+cc
+MMLU,phi3.5,mcnemar,control vs persona_a,b=36 c=31,6.251e-01,chi2+cc
+MMLU,phi3.5,mcnemar,control vs persona_b,b=33 c=34,1.000e+00,chi2+cc
+MMLU,phi3.5,mcnemar,control vs persona_c,b=34 c=27,4.424e-01,chi2+cc
+MMLU,qwen2.5:7b,mcnemar,none vs persona_a,b=44 c=26,4.216e-02,chi2+cc
+MMLU,qwen2.5:7b,mcnemar,none vs persona_b,b=43 c=26,5.408e-02,chi2+cc
+MMLU,qwen2.5:7b,mcnemar,none vs persona_c,b=36 c=26,2.530e-01,chi2+cc
+MMLU,qwen2.5:7b,mcnemar,control vs persona_a,b=42 c=20,7.653e-03,chi2+cc
+MMLU,qwen2.5:7b,mcnemar,control vs persona_b,b=41 c=20,1.045e-02,chi2+cc
+MMLU,qwen2.5:7b,mcnemar,control vs persona_c,b=31 c=17,6.060e-02,chi2+cc
+TruthfulQA,llama3.1:8b,mcnemar_bh,none vs persona_a,,3.623e-01,ns
+TruthfulQA,llama3.1:8b,mcnemar_bh,none vs persona_b,,9.444e-02,ns
+TruthfulQA,llama3.1:8b,mcnemar_bh,none vs persona_c,,6.581e-01,ns
+TruthfulQA,llama3.1:8b,mcnemar_bh,control vs persona_a,,1.000e+00,ns
+TruthfulQA,llama3.1:8b,mcnemar_bh,control vs persona_b,,7.302e-03,significant
+TruthfulQA,llama3.1:8b,mcnemar_bh,control vs persona_c,,1.395e-01,ns
+TruthfulQA,mistral,mcnemar_bh,none vs persona_a,,2.015e-03,significant
+TruthfulQA,mistral,mcnemar_bh,none vs persona_b,,2.089e-05,significant
+TruthfulQA,mistral,mcnemar_bh,none vs persona_c,,2.387e-05,significant
+TruthfulQA,mistral,mcnemar_bh,control vs persona_a,,5.546e-02,ns
+TruthfulQA,mistral,mcnemar_bh,control vs persona_b,,1.385e-03,significant
+TruthfulQA,mistral,mcnemar_bh,control vs persona_c,,2.229e-03,significant
+TruthfulQA,phi3.5,mcnemar_bh,none vs persona_a,,6.151e-01,ns
+TruthfulQA,phi3.5,mcnemar_bh,none vs persona_b,,1.395e-01,ns
+TruthfulQA,phi3.5,mcnemar_bh,none vs persona_c,,7.079e-02,ns
+TruthfulQA,phi3.5,mcnemar_bh,control vs persona_a,,7.399e-01,ns
+TruthfulQA,phi3.5,mcnemar_bh,control vs persona_b,,1.946e-01,ns
+TruthfulQA,phi3.5,mcnemar_bh,control vs persona_c,,1.006e-01,ns
+TruthfulQA,qwen2.5:7b,mcnemar_bh,none vs persona_a,,1.946e-01,ns
+TruthfulQA,qwen2.5:7b,mcnemar_bh,none vs persona_b,,1.933e-01,ns
+TruthfulQA,qwen2.5:7b,mcnemar_bh,none vs persona_c,,6.978e-01,ns
+TruthfulQA,qwen2.5:7b,mcnemar_bh,control vs persona_a,,5.444e-01,ns
+TruthfulQA,qwen2.5:7b,mcnemar_bh,control vs persona_b,,5.152e-02,ns
+TruthfulQA,qwen2.5:7b,mcnemar_bh,control vs persona_c,,9.442e-01,ns
+MMLU,llama3.1:8b,mcnemar_bh,none vs persona_a,,2.229e-03,significant
+MMLU,llama3.1:8b,mcnemar_bh,none vs persona_b,,1.535e-02,significant
+MMLU,llama3.1:8b,mcnemar_bh,none vs persona_c,,6.124e-03,significant
+MMLU,llama3.1:8b,mcnemar_bh,control vs persona_a,,4.536e-02,significant
+MMLU,llama3.1:8b,mcnemar_bh,control vs persona_b,,1.933e-01,ns
+MMLU,llama3.1:8b,mcnemar_bh,control vs persona_c,,9.444e-02,ns
+MMLU,mistral,mcnemar_bh,none vs persona_a,,4.800e-03,significant
+MMLU,mistral,mcnemar_bh,none vs persona_b,,5.487e-05,significant
+MMLU,mistral,mcnemar_bh,none vs persona_c,,6.124e-03,significant
+MMLU,mistral,mcnemar_bh,control vs persona_a,,5.546e-03,significant
+MMLU,mistral,mcnemar_bh,control vs persona_b,,5.487e-05,significant
+MMLU,mistral,mcnemar_bh,control vs persona_c,,8.184e-03,significant
+MMLU,phi3.5,mcnemar_bh,none vs persona_a,,2.037e-01,ns
+MMLU,phi3.5,mcnemar_bh,none vs persona_b,,5.563e-01,ns
+MMLU,phi3.5,mcnemar_bh,none vs persona_c,,1.395e-01,ns
+MMLU,phi3.5,mcnemar_bh,control vs persona_a,,6.978e-01,ns
+MMLU,phi3.5,mcnemar_bh,control vs persona_b,,1.000e+00,ns
+MMLU,phi3.5,mcnemar_bh,control vs persona_c,,5.444e-01,ns
+MMLU,qwen2.5:7b,mcnemar_bh,none vs persona_a,,9.200e-02,ns
+MMLU,qwen2.5:7b,mcnemar_bh,none vs persona_b,,1.006e-01,ns
+MMLU,qwen2.5:7b,mcnemar_bh,none vs persona_c,,3.374e-01,ns
+MMLU,qwen2.5:7b,mcnemar_bh,control vs persona_a,,2.296e-02,significant
+MMLU,qwen2.5:7b,mcnemar_bh,control vs persona_b,,2.949e-02,significant
+MMLU,qwen2.5:7b,mcnemar_bh,control vs persona_c,,1.077e-01,ns

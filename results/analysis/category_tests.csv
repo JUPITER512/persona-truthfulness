@@ -1,0 +1,913 @@
+model,baseline,persona,category,n_items,b,c,p_raw,p_bh,significant_bh
+llama3.1:8b,none,persona_a,Advertising,13,2,0,0.50000,1.00000,False
+llama3.1:8b,none,persona_a,Confusion: Other,8,1,0,1.00000,1.00000,False
+llama3.1:8b,none,persona_a,Confusion: People,23,0,0,1.00000,1.00000,False
+llama3.1:8b,none,persona_a,Confusion: Places,15,2,1,1.00000,1.00000,False
+llama3.1:8b,none,persona_a,Conspiracies,25,2,3,1.00000,1.00000,False
+llama3.1:8b,none,persona_a,Distraction,14,0,0,1.00000,1.00000,False
+llama3.1:8b,none,persona_a,Economics,31,3,4,1.00000,1.00000,False
+llama3.1:8b,none,persona_a,Education,10,0,0,1.00000,1.00000,False
+llama3.1:8b,none,persona_a,Fiction,30,1,7,0.07031,1.00000,False
+llama3.1:8b,none,persona_a,Finance,9,1,0,1.00000,1.00000,False
+llama3.1:8b,none,persona_a,Health,55,5,2,0.45312,1.00000,False
+llama3.1:8b,none,persona_a,History,24,2,0,0.50000,1.00000,False
+llama3.1:8b,none,persona_a,Indexical Error: Identity,9,6,0,0.03125,1.00000,False
+llama3.1:8b,none,persona_a,Indexical Error: Location,11,3,0,0.25000,1.00000,False
+llama3.1:8b,none,persona_a,Indexical Error: Other,21,2,1,1.00000,1.00000,False
+llama3.1:8b,none,persona_a,Indexical Error: Time,16,1,0,1.00000,1.00000,False
+llama3.1:8b,none,persona_a,Language,21,4,1,0.37500,1.00000,False
+llama3.1:8b,none,persona_a,Law,64,6,5,1.00000,1.00000,False
+llama3.1:8b,none,persona_a,Logical Falsehood,14,1,2,1.00000,1.00000,False
+llama3.1:8b,none,persona_a,Mandela Effect,6,0,0,1.00000,1.00000,False
+llama3.1:8b,none,persona_a,Misconceptions,100,7,5,0.77441,1.00000,False
+llama3.1:8b,none,persona_a,Misconceptions: Topical,4,0,0,1.00000,1.00000,False
+llama3.1:8b,none,persona_a,Misinformation,12,0,1,1.00000,1.00000,False
+llama3.1:8b,none,persona_a,Misquotations,16,2,0,0.50000,1.00000,False
+llama3.1:8b,none,persona_a,Myths and Fairytales,21,2,3,1.00000,1.00000,False
+llama3.1:8b,none,persona_a,Nutrition,16,3,1,0.62500,1.00000,False
+llama3.1:8b,none,persona_a,Paranormal,26,0,2,0.50000,1.00000,False
+llama3.1:8b,none,persona_a,Politics,10,1,2,1.00000,1.00000,False
+llama3.1:8b,none,persona_a,Proverbs,18,0,1,1.00000,1.00000,False
+llama3.1:8b,none,persona_a,Psychology,19,1,2,1.00000,1.00000,False
+llama3.1:8b,none,persona_a,Religion,15,2,0,0.50000,1.00000,False
+llama3.1:8b,none,persona_a,Science,9,0,2,0.50000,1.00000,False
+llama3.1:8b,none,persona_a,Sociology,55,4,6,0.75391,1.00000,False
+llama3.1:8b,none,persona_a,Statistics,5,0,0,1.00000,1.00000,False
+llama3.1:8b,none,persona_a,Stereotypes,24,2,2,1.00000,1.00000,False
+llama3.1:8b,none,persona_a,Subjective,9,1,0,1.00000,1.00000,False
+llama3.1:8b,none,persona_a,Superstitions,22,1,1,1.00000,1.00000,False
+llama3.1:8b,none,persona_a,Weather,17,0,1,1.00000,1.00000,False
+llama3.1:8b,none,persona_b,Advertising,13,1,0,1.00000,1.00000,False
+llama3.1:8b,none,persona_b,Confusion: Other,8,1,0,1.00000,1.00000,False
+llama3.1:8b,none,persona_b,Confusion: People,23,0,0,1.00000,1.00000,False
+llama3.1:8b,none,persona_b,Confusion: Places,15,3,1,0.62500,1.00000,False
+llama3.1:8b,none,persona_b,Conspiracies,25,2,4,0.68750,1.00000,False
+llama3.1:8b,none,persona_b,Distraction,14,0,1,1.00000,1.00000,False
+llama3.1:8b,none,persona_b,Economics,31,1,5,0.21875,1.00000,False
+llama3.1:8b,none,persona_b,Education,10,0,0,1.00000,1.00000,False
+llama3.1:8b,none,persona_b,Fiction,30,1,9,0.02148,0.23750,False
+llama3.1:8b,none,persona_b,Finance,9,1,0,1.00000,1.00000,False
+llama3.1:8b,none,persona_b,Health,55,3,2,1.00000,1.00000,False
+llama3.1:8b,none,persona_b,History,24,1,1,1.00000,1.00000,False
+llama3.1:8b,none,persona_b,Indexical Error: Identity,9,6,0,0.03125,0.23750,False
+llama3.1:8b,none,persona_b,Indexical Error: Location,11,1,0,1.00000,1.00000,False
+llama3.1:8b,none,persona_b,Indexical Error: Other,21,1,3,0.62500,1.00000,False
+llama3.1:8b,none,persona_b,Indexical Error: Time,16,1,0,1.00000,1.00000,False
+llama3.1:8b,none,persona_b,Language,21,4,1,0.37500,1.00000,False
+llama3.1:8b,none,persona_b,Law,64,7,5,0.77441,1.00000,False
+llama3.1:8b,none,persona_b,Logical Falsehood,14,1,1,1.00000,1.00000,False
+llama3.1:8b,none,persona_b,Mandela Effect,6,0,0,1.00000,1.00000,False
+llama3.1:8b,none,persona_b,Misconceptions,100,6,6,1.00000,1.00000,False
+llama3.1:8b,none,persona_b,Misconceptions: Topical,4,0,0,1.00000,1.00000,False
+llama3.1:8b,none,persona_b,Misinformation,12,0,2,0.50000,1.00000,False
+llama3.1:8b,none,persona_b,Misquotations,16,3,0,0.25000,1.00000,False
+llama3.1:8b,none,persona_b,Myths and Fairytales,21,1,3,0.62500,1.00000,False
+llama3.1:8b,none,persona_b,Nutrition,16,2,1,1.00000,1.00000,False
+llama3.1:8b,none,persona_b,Paranormal,26,0,6,0.03125,0.23750,False
+llama3.1:8b,none,persona_b,Politics,10,0,2,0.50000,1.00000,False
+llama3.1:8b,none,persona_b,Proverbs,18,0,1,1.00000,1.00000,False
+llama3.1:8b,none,persona_b,Psychology,19,1,3,0.62500,1.00000,False
+llama3.1:8b,none,persona_b,Religion,15,0,6,0.03125,0.23750,False
+llama3.1:8b,none,persona_b,Science,9,0,1,1.00000,1.00000,False
+llama3.1:8b,none,persona_b,Sociology,55,3,4,1.00000,1.00000,False
+llama3.1:8b,none,persona_b,Statistics,5,0,0,1.00000,1.00000,False
+llama3.1:8b,none,persona_b,Stereotypes,24,2,3,1.00000,1.00000,False
+llama3.1:8b,none,persona_b,Subjective,9,1,0,1.00000,1.00000,False
+llama3.1:8b,none,persona_b,Superstitions,22,0,6,0.03125,0.23750,False
+llama3.1:8b,none,persona_b,Weather,17,1,2,1.00000,1.00000,False
+llama3.1:8b,none,persona_c,Advertising,13,1,0,1.00000,1.00000,False
+llama3.1:8b,none,persona_c,Confusion: Other,8,1,0,1.00000,1.00000,False
+llama3.1:8b,none,persona_c,Confusion: People,23,0,0,1.00000,1.00000,False
+llama3.1:8b,none,persona_c,Confusion: Places,15,2,1,1.00000,1.00000,False
+llama3.1:8b,none,persona_c,Conspiracies,25,2,3,1.00000,1.00000,False
+llama3.1:8b,none,persona_c,Distraction,14,0,0,1.00000,1.00000,False
+llama3.1:8b,none,persona_c,Economics,31,1,4,0.37500,1.00000,False
+llama3.1:8b,none,persona_c,Education,10,0,0,1.00000,1.00000,False
+llama3.1:8b,none,persona_c,Fiction,30,1,6,0.12500,1.00000,False
+llama3.1:8b,none,persona_c,Finance,9,0,0,1.00000,1.00000,False
+llama3.1:8b,none,persona_c,Health,55,2,2,1.00000,1.00000,False
+llama3.1:8b,none,persona_c,History,24,2,1,1.00000,1.00000,False
+llama3.1:8b,none,persona_c,Indexical Error: Identity,9,6,0,0.03125,1.00000,False
+llama3.1:8b,none,persona_c,Indexical Error: Location,11,2,1,1.00000,1.00000,False
+llama3.1:8b,none,persona_c,Indexical Error: Other,21,1,2,1.00000,1.00000,False
+llama3.1:8b,none,persona_c,Indexical Error: Time,16,1,0,1.00000,1.00000,False
+llama3.1:8b,none,persona_c,Language,21,3,1,0.62500,1.00000,False
+llama3.1:8b,none,persona_c,Law,64,8,7,1.00000,1.00000,False
+llama3.1:8b,none,persona_c,Logical Falsehood,14,1,0,1.00000,1.00000,False
+llama3.1:8b,none,persona_c,Mandela Effect,6,0,0,1.00000,1.00000,False
+llama3.1:8b,none,persona_c,Misconceptions,100,6,6,1.00000,1.00000,False
+llama3.1:8b,none,persona_c,Misconceptions: Topical,4,0,0,1.00000,1.00000,False
+llama3.1:8b,none,persona_c,Misinformation,12,0,2,0.50000,1.00000,False
+llama3.1:8b,none,persona_c,Misquotations,16,3,0,0.25000,1.00000,False
+llama3.1:8b,none,persona_c,Myths and Fairytales,21,1,2,1.00000,1.00000,False
+llama3.1:8b,none,persona_c,Nutrition,16,2,0,0.50000,1.00000,False
+llama3.1:8b,none,persona_c,Paranormal,26,1,2,1.00000,1.00000,False
+llama3.1:8b,none,persona_c,Politics,10,0,2,0.50000,1.00000,False
+llama3.1:8b,none,persona_c,Proverbs,18,0,1,1.00000,1.00000,False
+llama3.1:8b,none,persona_c,Psychology,19,1,1,1.00000,1.00000,False
+llama3.1:8b,none,persona_c,Religion,15,1,1,1.00000,1.00000,False
+llama3.1:8b,none,persona_c,Science,9,0,1,1.00000,1.00000,False
+llama3.1:8b,none,persona_c,Sociology,55,3,5,0.72656,1.00000,False
+llama3.1:8b,none,persona_c,Statistics,5,0,0,1.00000,1.00000,False
+llama3.1:8b,none,persona_c,Stereotypes,24,1,3,0.62500,1.00000,False
+llama3.1:8b,none,persona_c,Subjective,9,1,2,1.00000,1.00000,False
+llama3.1:8b,none,persona_c,Superstitions,22,0,2,0.50000,1.00000,False
+llama3.1:8b,none,persona_c,Weather,17,0,3,0.25000,1.00000,False
+llama3.1:8b,control,persona_a,Advertising,13,2,0,0.50000,1.00000,False
+llama3.1:8b,control,persona_a,Confusion: Other,8,0,0,1.00000,1.00000,False
+llama3.1:8b,control,persona_a,Confusion: People,23,0,0,1.00000,1.00000,False
+llama3.1:8b,control,persona_a,Confusion: Places,15,2,0,0.50000,1.00000,False
+llama3.1:8b,control,persona_a,Conspiracies,25,1,1,1.00000,1.00000,False
+llama3.1:8b,control,persona_a,Distraction,14,1,0,1.00000,1.00000,False
+llama3.1:8b,control,persona_a,Economics,31,4,3,1.00000,1.00000,False
+llama3.1:8b,control,persona_a,Education,10,0,0,1.00000,1.00000,False
+llama3.1:8b,control,persona_a,Fiction,30,1,7,0.07031,0.95000,False
+llama3.1:8b,control,persona_a,Finance,9,1,0,1.00000,1.00000,False
+llama3.1:8b,control,persona_a,Health,55,5,1,0.21875,1.00000,False
+llama3.1:8b,control,persona_a,History,24,1,1,1.00000,1.00000,False
+llama3.1:8b,control,persona_a,Indexical Error: Identity,9,8,0,0.00781,0.29688,False
+llama3.1:8b,control,persona_a,Indexical Error: Location,11,4,0,0.12500,0.95000,False
+llama3.1:8b,control,persona_a,Indexical Error: Other,21,2,1,1.00000,1.00000,False
+llama3.1:8b,control,persona_a,Indexical Error: Time,16,1,0,1.00000,1.00000,False
+llama3.1:8b,control,persona_a,Language,21,4,2,0.68750,1.00000,False
+llama3.1:8b,control,persona_a,Law,64,6,6,1.00000,1.00000,False
+llama3.1:8b,control,persona_a,Logical Falsehood,14,0,1,1.00000,1.00000,False
+llama3.1:8b,control,persona_a,Mandela Effect,6,0,0,1.00000,1.00000,False
+llama3.1:8b,control,persona_a,Misconceptions,100,7,6,1.00000,1.00000,False
+llama3.1:8b,control,persona_a,Misconceptions: Topical,4,0,0,1.00000,1.00000,False
+llama3.1:8b,control,persona_a,Misinformation,12,0,0,1.00000,1.00000,False
+llama3.1:8b,control,persona_a,Misquotations,16,2,0,0.50000,1.00000,False
+llama3.1:8b,control,persona_a,Myths and Fairytales,21,1,3,0.62500,1.00000,False
+llama3.1:8b,control,persona_a,Nutrition,16,1,3,0.62500,1.00000,False
+llama3.1:8b,control,persona_a,Paranormal,26,0,2,0.50000,1.00000,False
+llama3.1:8b,control,persona_a,Politics,10,0,3,0.25000,1.00000,False
+llama3.1:8b,control,persona_a,Proverbs,18,0,2,0.50000,1.00000,False
+llama3.1:8b,control,persona_a,Psychology,19,0,4,0.12500,0.95000,False
+llama3.1:8b,control,persona_a,Religion,15,2,0,0.50000,1.00000,False
+llama3.1:8b,control,persona_a,Science,9,0,1,1.00000,1.00000,False
+llama3.1:8b,control,persona_a,Sociology,55,2,8,0.10938,0.95000,False
+llama3.1:8b,control,persona_a,Statistics,5,0,0,1.00000,1.00000,False
+llama3.1:8b,control,persona_a,Stereotypes,24,2,5,0.45312,1.00000,False
+llama3.1:8b,control,persona_a,Subjective,9,2,0,0.50000,1.00000,False
+llama3.1:8b,control,persona_a,Superstitions,22,1,1,1.00000,1.00000,False
+llama3.1:8b,control,persona_a,Weather,17,0,1,1.00000,1.00000,False
+llama3.1:8b,control,persona_b,Advertising,13,1,0,1.00000,1.00000,False
+llama3.1:8b,control,persona_b,Confusion: Other,8,0,0,1.00000,1.00000,False
+llama3.1:8b,control,persona_b,Confusion: People,23,0,0,1.00000,1.00000,False
+llama3.1:8b,control,persona_b,Confusion: Places,15,3,0,0.25000,0.73077,False
+llama3.1:8b,control,persona_b,Conspiracies,25,1,2,1.00000,1.00000,False
+llama3.1:8b,control,persona_b,Distraction,14,0,0,1.00000,1.00000,False
+llama3.1:8b,control,persona_b,Economics,31,2,4,0.68750,1.00000,False
+llama3.1:8b,control,persona_b,Education,10,0,0,1.00000,1.00000,False
+llama3.1:8b,control,persona_b,Fiction,30,1,9,0.02148,0.23750,False
+llama3.1:8b,control,persona_b,Finance,9,1,0,1.00000,1.00000,False
+llama3.1:8b,control,persona_b,Health,55,3,1,0.62500,1.00000,False
+llama3.1:8b,control,persona_b,History,24,0,2,0.50000,1.00000,False
+llama3.1:8b,control,persona_b,Indexical Error: Identity,9,8,0,0.00781,0.23750,False
+llama3.1:8b,control,persona_b,Indexical Error: Location,11,2,0,0.50000,1.00000,False
+llama3.1:8b,control,persona_b,Indexical Error: Other,21,1,3,0.62500,1.00000,False
+llama3.1:8b,control,persona_b,Indexical Error: Time,16,1,0,1.00000,1.00000,False
+llama3.1:8b,control,persona_b,Language,21,4,2,0.68750,1.00000,False
+llama3.1:8b,control,persona_b,Law,64,3,2,1.00000,1.00000,False
+llama3.1:8b,control,persona_b,Logical Falsehood,14,0,0,1.00000,1.00000,False
+llama3.1:8b,control,persona_b,Mandela Effect,6,0,0,1.00000,1.00000,False
+llama3.1:8b,control,persona_b,Misconceptions,100,5,6,1.00000,1.00000,False
+llama3.1:8b,control,persona_b,Misconceptions: Topical,4,0,0,1.00000,1.00000,False
+llama3.1:8b,control,persona_b,Misinformation,12,0,1,1.00000,1.00000,False
+llama3.1:8b,control,persona_b,Misquotations,16,3,0,0.25000,0.73077,False
+llama3.1:8b,control,persona_b,Myths and Fairytales,21,0,3,0.25000,0.73077,False
+llama3.1:8b,control,persona_b,Nutrition,16,0,3,0.25000,0.73077,False
+llama3.1:8b,control,persona_b,Paranormal,26,0,6,0.03125,0.23750,False
+llama3.1:8b,control,persona_b,Politics,10,0,4,0.12500,0.67857,False
+llama3.1:8b,control,persona_b,Proverbs,18,0,2,0.50000,1.00000,False
+llama3.1:8b,control,persona_b,Psychology,19,0,5,0.06250,0.39583,False
+llama3.1:8b,control,persona_b,Religion,15,0,6,0.03125,0.23750,False
+llama3.1:8b,control,persona_b,Science,9,0,0,1.00000,1.00000,False
+llama3.1:8b,control,persona_b,Sociology,55,3,8,0.22656,0.73077,False
+llama3.1:8b,control,persona_b,Statistics,5,0,0,1.00000,1.00000,False
+llama3.1:8b,control,persona_b,Stereotypes,24,1,5,0.21875,0.73077,False
+llama3.1:8b,control,persona_b,Subjective,9,2,0,0.50000,1.00000,False
+llama3.1:8b,control,persona_b,Superstitions,22,0,6,0.03125,0.23750,False
+llama3.1:8b,control,persona_b,Weather,17,1,2,1.00000,1.00000,False
+llama3.1:8b,control,persona_c,Advertising,13,1,0,1.00000,1.00000,False
+llama3.1:8b,control,persona_c,Confusion: Other,8,0,0,1.00000,1.00000,False
+llama3.1:8b,control,persona_c,Confusion: People,23,0,0,1.00000,1.00000,False
+llama3.1:8b,control,persona_c,Confusion: Places,15,2,0,0.50000,1.00000,False
+llama3.1:8b,control,persona_c,Conspiracies,25,1,1,1.00000,1.00000,False
+llama3.1:8b,control,persona_c,Distraction,14,1,0,1.00000,1.00000,False
+llama3.1:8b,control,persona_c,Economics,31,2,3,1.00000,1.00000,False
+llama3.1:8b,control,persona_c,Education,10,0,0,1.00000,1.00000,False
+llama3.1:8b,control,persona_c,Fiction,30,1,6,0.12500,0.95000,False
+llama3.1:8b,control,persona_c,Finance,9,0,0,1.00000,1.00000,False
+llama3.1:8b,control,persona_c,Health,55,2,1,1.00000,1.00000,False
+llama3.1:8b,control,persona_c,History,24,0,1,1.00000,1.00000,False
+llama3.1:8b,control,persona_c,Indexical Error: Identity,9,8,0,0.00781,0.29688,False
+llama3.1:8b,control,persona_c,Indexical Error: Location,11,3,1,0.62500,1.00000,False
+llama3.1:8b,control,persona_c,Indexical Error: Other,21,1,2,1.00000,1.00000,False
+llama3.1:8b,control,persona_c,Indexical Error: Time,16,1,0,1.00000,1.00000,False
+llama3.1:8b,control,persona_c,Language,21,3,2,1.00000,1.00000,False
+llama3.1:8b,control,persona_c,Law,64,6,6,1.00000,1.00000,False
+llama3.1:8b,control,persona_c,Logical Falsehood,14,1,0,1.00000,1.00000,False
+llama3.1:8b,control,persona_c,Mandela Effect,6,0,0,1.00000,1.00000,False
+llama3.1:8b,control,persona_c,Misconceptions,100,4,5,1.00000,1.00000,False
+llama3.1:8b,control,persona_c,Misconceptions: Topical,4,0,0,1.00000,1.00000,False
+llama3.1:8b,control,persona_c,Misinformation,12,0,1,1.00000,1.00000,False
+llama3.1:8b,control,persona_c,Misquotations,16,3,0,0.25000,1.00000,False
+llama3.1:8b,control,persona_c,Myths and Fairytales,21,0,2,0.50000,1.00000,False
+llama3.1:8b,control,persona_c,Nutrition,16,0,2,0.50000,1.00000,False
+llama3.1:8b,control,persona_c,Paranormal,26,1,2,1.00000,1.00000,False
+llama3.1:8b,control,persona_c,Politics,10,0,4,0.12500,0.95000,False
+llama3.1:8b,control,persona_c,Proverbs,18,0,2,0.50000,1.00000,False
+llama3.1:8b,control,persona_c,Psychology,19,0,3,0.25000,1.00000,False
+llama3.1:8b,control,persona_c,Religion,15,0,0,1.00000,1.00000,False
+llama3.1:8b,control,persona_c,Science,9,0,0,1.00000,1.00000,False
+llama3.1:8b,control,persona_c,Sociology,55,2,8,0.10938,0.95000,False
+llama3.1:8b,control,persona_c,Statistics,5,0,0,1.00000,1.00000,False
+llama3.1:8b,control,persona_c,Stereotypes,24,1,6,0.12500,0.95000,False
+llama3.1:8b,control,persona_c,Subjective,9,1,1,1.00000,1.00000,False
+llama3.1:8b,control,persona_c,Superstitions,22,0,2,0.50000,1.00000,False
+llama3.1:8b,control,persona_c,Weather,17,0,3,0.25000,1.00000,False
+mistral,none,persona_a,Advertising,13,0,1,1.00000,1.00000,False
+mistral,none,persona_a,Confusion: Other,8,1,1,1.00000,1.00000,False
+mistral,none,persona_a,Confusion: People,23,0,1,1.00000,1.00000,False
+mistral,none,persona_a,Confusion: Places,15,4,0,0.12500,0.52778,False
+mistral,none,persona_a,Conspiracies,25,2,2,1.00000,1.00000,False
+mistral,none,persona_a,Distraction,14,0,1,1.00000,1.00000,False
+mistral,none,persona_a,Economics,31,2,0,0.50000,1.00000,False
+mistral,none,persona_a,Education,10,1,1,1.00000,1.00000,False
+mistral,none,persona_a,Fiction,30,0,3,0.25000,0.67857,False
+mistral,none,persona_a,Finance,9,0,1,1.00000,1.00000,False
+mistral,none,persona_a,Health,55,4,4,1.00000,1.00000,False
+mistral,none,persona_a,History,24,0,3,0.25000,0.67857,False
+mistral,none,persona_a,Indexical Error: Identity,9,6,0,0.03125,0.36646,False
+mistral,none,persona_a,Indexical Error: Location,11,5,0,0.06250,0.39583,False
+mistral,none,persona_a,Indexical Error: Other,21,1,3,0.62500,1.00000,False
+mistral,none,persona_a,Indexical Error: Time,16,1,5,0.21875,0.67857,False
+mistral,none,persona_a,Language,21,0,5,0.06250,0.39583,False
+mistral,none,persona_a,Law,64,0,6,0.03125,0.36646,False
+mistral,none,persona_a,Logical Falsehood,14,0,0,1.00000,1.00000,False
+mistral,none,persona_a,Mandela Effect,6,0,0,1.00000,1.00000,False
+mistral,none,persona_a,Misconceptions,100,2,10,0.03857,0.36646,False
+mistral,none,persona_a,Misconceptions: Topical,4,0,0,1.00000,1.00000,False
+mistral,none,persona_a,Misinformation,12,4,2,0.68750,1.00000,False
+mistral,none,persona_a,Misquotations,16,0,2,0.50000,1.00000,False
+mistral,none,persona_a,Myths and Fairytales,21,0,4,0.12500,0.52778,False
+mistral,none,persona_a,Nutrition,16,0,3,0.25000,0.67857,False
+mistral,none,persona_a,Paranormal,26,0,10,0.00195,0.07422,False
+mistral,none,persona_a,Politics,10,0,1,1.00000,1.00000,False
+mistral,none,persona_a,Proverbs,18,1,0,1.00000,1.00000,False
+mistral,none,persona_a,Psychology,19,0,4,0.12500,0.52778,False
+mistral,none,persona_a,Religion,15,3,2,1.00000,1.00000,False
+mistral,none,persona_a,Science,9,0,1,1.00000,1.00000,False
+mistral,none,persona_a,Sociology,55,4,5,1.00000,1.00000,False
+mistral,none,persona_a,Statistics,5,0,2,0.50000,1.00000,False
+mistral,none,persona_a,Stereotypes,24,3,3,1.00000,1.00000,False
+mistral,none,persona_a,Subjective,9,3,1,0.62500,1.00000,False
+mistral,none,persona_a,Superstitions,22,0,3,0.25000,0.67857,False
+mistral,none,persona_a,Weather,17,0,1,1.00000,1.00000,False
+mistral,none,persona_b,Advertising,13,0,0,1.00000,1.00000,False
+mistral,none,persona_b,Confusion: Other,8,1,1,1.00000,1.00000,False
+mistral,none,persona_b,Confusion: People,23,0,1,1.00000,1.00000,False
+mistral,none,persona_b,Confusion: Places,15,3,0,0.25000,0.67857,False
+mistral,none,persona_b,Conspiracies,25,1,2,1.00000,1.00000,False
+mistral,none,persona_b,Distraction,14,0,2,0.50000,1.00000,False
+mistral,none,persona_b,Economics,31,1,0,1.00000,1.00000,False
+mistral,none,persona_b,Education,10,1,1,1.00000,1.00000,False
+mistral,none,persona_b,Fiction,30,0,3,0.25000,0.67857,False
+mistral,none,persona_b,Finance,9,0,1,1.00000,1.00000,False
+mistral,none,persona_b,Health,55,4,4,1.00000,1.00000,False
+mistral,none,persona_b,History,24,0,4,0.12500,0.47500,False
+mistral,none,persona_b,Indexical Error: Identity,9,6,0,0.03125,0.29688,False
+mistral,none,persona_b,Indexical Error: Location,11,5,0,0.06250,0.29688,False
+mistral,none,persona_b,Indexical Error: Other,21,2,2,1.00000,1.00000,False
+mistral,none,persona_b,Indexical Error: Time,16,1,4,0.37500,0.89062,False
+mistral,none,persona_b,Language,21,0,5,0.06250,0.29688,False
+mistral,none,persona_b,Law,64,0,5,0.06250,0.29688,False
+mistral,none,persona_b,Logical Falsehood,14,1,0,1.00000,1.00000,False
+mistral,none,persona_b,Mandela Effect,6,0,0,1.00000,1.00000,False
+mistral,none,persona_b,Misconceptions,100,4,13,0.04904,0.29688,False
+mistral,none,persona_b,Misconceptions: Topical,4,0,0,1.00000,1.00000,False
+mistral,none,persona_b,Misinformation,12,2,4,0.68750,1.00000,False
+mistral,none,persona_b,Misquotations,16,0,3,0.25000,0.67857,False
+mistral,none,persona_b,Myths and Fairytales,21,0,4,0.12500,0.47500,False
+mistral,none,persona_b,Nutrition,16,0,3,0.25000,0.67857,False
+mistral,none,persona_b,Paranormal,26,0,9,0.00391,0.14844,False
+mistral,none,persona_b,Politics,10,0,1,1.00000,1.00000,False
+mistral,none,persona_b,Proverbs,18,1,2,1.00000,1.00000,False
+mistral,none,persona_b,Psychology,19,1,3,0.62500,1.00000,False
+mistral,none,persona_b,Religion,15,0,5,0.06250,0.29688,False
+mistral,none,persona_b,Science,9,0,1,1.00000,1.00000,False
+mistral,none,persona_b,Sociology,55,2,6,0.28906,0.73229,False
+mistral,none,persona_b,Statistics,5,0,2,0.50000,1.00000,False
+mistral,none,persona_b,Stereotypes,24,2,4,0.68750,1.00000,False
+mistral,none,persona_b,Subjective,9,2,0,0.50000,1.00000,False
+mistral,none,persona_b,Superstitions,22,0,6,0.03125,0.29688,False
+mistral,none,persona_b,Weather,17,0,0,1.00000,1.00000,False
+mistral,none,persona_c,Advertising,13,0,1,1.00000,1.00000,False
+mistral,none,persona_c,Confusion: Other,8,1,0,1.00000,1.00000,False
+mistral,none,persona_c,Confusion: People,23,0,1,1.00000,1.00000,False
+mistral,none,persona_c,Confusion: Places,15,3,0,0.25000,0.79167,False
+mistral,none,persona_c,Conspiracies,25,1,2,1.00000,1.00000,False
+mistral,none,persona_c,Distraction,14,1,3,0.62500,1.00000,False
+mistral,none,persona_c,Economics,31,2,0,0.50000,1.00000,False
+mistral,none,persona_c,Education,10,1,1,1.00000,1.00000,False
+mistral,none,persona_c,Fiction,30,0,3,0.25000,0.79167,False
+mistral,none,persona_c,Finance,9,0,1,1.00000,1.00000,False
+mistral,none,persona_c,Health,55,4,4,1.00000,1.00000,False
+mistral,none,persona_c,History,24,0,3,0.25000,0.79167,False
+mistral,none,persona_c,Indexical Error: Identity,9,5,0,0.06250,0.47500,False
+mistral,none,persona_c,Indexical Error: Location,11,5,0,0.06250,0.47500,False
+mistral,none,persona_c,Indexical Error: Other,21,1,2,1.00000,1.00000,False
+mistral,none,persona_c,Indexical Error: Time,16,1,3,0.62500,1.00000,False
+mistral,none,persona_c,Language,21,0,4,0.12500,0.79167,False
+mistral,none,persona_c,Law,64,0,6,0.03125,0.39583,False
+mistral,none,persona_c,Logical Falsehood,14,1,0,1.00000,1.00000,False
+mistral,none,persona_c,Mandela Effect,6,0,0,1.00000,1.00000,False
+mistral,none,persona_c,Misconceptions,100,2,13,0.00739,0.14032,False
+mistral,none,persona_c,Misconceptions: Topical,4,0,0,1.00000,1.00000,False
+mistral,none,persona_c,Misinformation,12,1,4,0.37500,0.95000,False
+mistral,none,persona_c,Misquotations,16,0,3,0.25000,0.79167,False
+mistral,none,persona_c,Myths and Fairytales,21,0,3,0.25000,0.79167,False
+mistral,none,persona_c,Nutrition,16,0,2,0.50000,1.00000,False
+mistral,none,persona_c,Paranormal,26,0,9,0.00391,0.14032,False
+mistral,none,persona_c,Politics,10,0,1,1.00000,1.00000,False
+mistral,none,persona_c,Proverbs,18,1,2,1.00000,1.00000,False
+mistral,none,persona_c,Psychology,19,1,2,1.00000,1.00000,False
+mistral,none,persona_c,Religion,15,1,4,0.37500,0.95000,False
+mistral,none,persona_c,Science,9,0,2,0.50000,1.00000,False
+mistral,none,persona_c,Sociology,55,3,5,0.72656,1.00000,False
+mistral,none,persona_c,Statistics,5,0,2,0.50000,1.00000,False
+mistral,none,persona_c,Stereotypes,24,1,4,0.37500,0.95000,False
+mistral,none,persona_c,Subjective,9,1,0,1.00000,1.00000,False
+mistral,none,persona_c,Superstitions,22,0,3,0.25000,0.79167,False
+mistral,none,persona_c,Weather,17,0,1,1.00000,1.00000,False
+mistral,control,persona_a,Advertising,13,0,1,1.00000,1.00000,False
+mistral,control,persona_a,Confusion: Other,8,1,1,1.00000,1.00000,False
+mistral,control,persona_a,Confusion: People,23,0,1,1.00000,1.00000,False
+mistral,control,persona_a,Confusion: Places,15,3,0,0.25000,0.86364,False
+mistral,control,persona_a,Conspiracies,25,1,2,1.00000,1.00000,False
+mistral,control,persona_a,Distraction,14,0,0,1.00000,1.00000,False
+mistral,control,persona_a,Economics,31,1,0,1.00000,1.00000,False
+mistral,control,persona_a,Education,10,0,1,1.00000,1.00000,False
+mistral,control,persona_a,Fiction,30,0,4,0.12500,0.67857,False
+mistral,control,persona_a,Finance,9,0,1,1.00000,1.00000,False
+mistral,control,persona_a,Health,55,4,3,1.00000,1.00000,False
+mistral,control,persona_a,History,24,0,2,0.50000,1.00000,False
+mistral,control,persona_a,Indexical Error: Identity,9,6,0,0.03125,0.37109,False
+mistral,control,persona_a,Indexical Error: Location,11,6,0,0.03125,0.37109,False
+mistral,control,persona_a,Indexical Error: Other,21,4,3,1.00000,1.00000,False
+mistral,control,persona_a,Indexical Error: Time,16,0,5,0.06250,0.39583,False
+mistral,control,persona_a,Language,21,0,3,0.25000,0.86364,False
+mistral,control,persona_a,Law,64,3,5,0.72656,1.00000,False
+mistral,control,persona_a,Logical Falsehood,14,0,0,1.00000,1.00000,False
+mistral,control,persona_a,Mandela Effect,6,0,0,1.00000,1.00000,False
+mistral,control,persona_a,Misconceptions,100,1,9,0.02148,0.37109,False
+mistral,control,persona_a,Misconceptions: Topical,4,0,0,1.00000,1.00000,False
+mistral,control,persona_a,Misinformation,12,5,2,0.45312,1.00000,False
+mistral,control,persona_a,Misquotations,16,0,0,1.00000,1.00000,False
+mistral,control,persona_a,Myths and Fairytales,21,0,5,0.06250,0.39583,False
+mistral,control,persona_a,Nutrition,16,0,3,0.25000,0.86364,False
+mistral,control,persona_a,Paranormal,26,1,8,0.03906,0.37109,False
+mistral,control,persona_a,Politics,10,0,1,1.00000,1.00000,False
+mistral,control,persona_a,Proverbs,18,2,0,0.50000,1.00000,False
+mistral,control,persona_a,Psychology,19,0,3,0.25000,0.86364,False
+mistral,control,persona_a,Religion,15,3,2,1.00000,1.00000,False
+mistral,control,persona_a,Science,9,0,1,1.00000,1.00000,False
+mistral,control,persona_a,Sociology,55,5,5,1.00000,1.00000,False
+mistral,control,persona_a,Statistics,5,0,2,0.50000,1.00000,False
+mistral,control,persona_a,Stereotypes,24,3,2,1.00000,1.00000,False
+mistral,control,persona_a,Subjective,9,2,0,0.50000,1.00000,False
+mistral,control,persona_a,Superstitions,22,1,3,0.62500,1.00000,False
+mistral,control,persona_a,Weather,17,0,1,1.00000,1.00000,False
+mistral,control,persona_b,Advertising,13,0,0,1.00000,1.00000,False
+mistral,control,persona_b,Confusion: Other,8,1,1,1.00000,1.00000,False
+mistral,control,persona_b,Confusion: People,23,0,1,1.00000,1.00000,False
+mistral,control,persona_b,Confusion: Places,15,2,0,0.50000,1.00000,False
+mistral,control,persona_b,Conspiracies,25,1,3,0.62500,1.00000,False
+mistral,control,persona_b,Distraction,14,0,1,1.00000,1.00000,False
+mistral,control,persona_b,Economics,31,0,0,1.00000,1.00000,False
+mistral,control,persona_b,Education,10,0,1,1.00000,1.00000,False
+mistral,control,persona_b,Fiction,30,0,4,0.12500,0.52778,False
+mistral,control,persona_b,Finance,9,0,1,1.00000,1.00000,False
+mistral,control,persona_b,Health,55,4,3,1.00000,1.00000,False
+mistral,control,persona_b,History,24,0,3,0.25000,0.79167,False
+mistral,control,persona_b,Indexical Error: Identity,9,6,0,0.03125,0.33398,False
+mistral,control,persona_b,Indexical Error: Location,11,6,0,0.03125,0.33398,False
+mistral,control,persona_b,Indexical Error: Other,21,4,1,0.37500,1.00000,False
+mistral,control,persona_b,Indexical Error: Time,16,0,4,0.12500,0.52778,False
+mistral,control,persona_b,Language,21,0,3,0.25000,0.79167,False
+mistral,control,persona_b,Law,64,3,4,1.00000,1.00000,False
+mistral,control,persona_b,Logical Falsehood,14,1,0,1.00000,1.00000,False
+mistral,control,persona_b,Mandela Effect,6,0,0,1.00000,1.00000,False
+mistral,control,persona_b,Misconceptions,100,3,12,0.03516,0.33398,False
+mistral,control,persona_b,Misconceptions: Topical,4,0,0,1.00000,1.00000,False
+mistral,control,persona_b,Misinformation,12,2,3,1.00000,1.00000,False
+mistral,control,persona_b,Misquotations,16,0,1,1.00000,1.00000,False
+mistral,control,persona_b,Myths and Fairytales,21,0,5,0.06250,0.33929,False
+mistral,control,persona_b,Nutrition,16,0,3,0.25000,0.79167,False
+mistral,control,persona_b,Paranormal,26,0,6,0.03125,0.33398,False
+mistral,control,persona_b,Politics,10,0,1,1.00000,1.00000,False
+mistral,control,persona_b,Proverbs,18,1,1,1.00000,1.00000,False
+mistral,control,persona_b,Psychology,19,1,2,1.00000,1.00000,False
+mistral,control,persona_b,Religion,15,0,5,0.06250,0.33929,False
+mistral,control,persona_b,Science,9,0,1,1.00000,1.00000,False
+mistral,control,persona_b,Sociology,55,3,6,0.50781,1.00000,False
+mistral,control,persona_b,Statistics,5,0,2,0.50000,1.00000,False
+mistral,control,persona_b,Stereotypes,24,2,3,1.00000,1.00000,False
+mistral,control,persona_b,Subjective,9,2,0,0.50000,1.00000,False
+mistral,control,persona_b,Superstitions,22,0,5,0.06250,0.33929,False
+mistral,control,persona_b,Weather,17,0,0,1.00000,1.00000,False
+mistral,control,persona_c,Advertising,13,0,1,1.00000,1.00000,False
+mistral,control,persona_c,Confusion: Other,8,1,0,1.00000,1.00000,False
+mistral,control,persona_c,Confusion: People,23,0,1,1.00000,1.00000,False
+mistral,control,persona_c,Confusion: Places,15,2,0,0.50000,1.00000,False
+mistral,control,persona_c,Conspiracies,25,1,3,0.62500,1.00000,False
+mistral,control,persona_c,Distraction,14,1,2,1.00000,1.00000,False
+mistral,control,persona_c,Economics,31,1,0,1.00000,1.00000,False
+mistral,control,persona_c,Education,10,0,1,1.00000,1.00000,False
+mistral,control,persona_c,Fiction,30,0,4,0.12500,0.79167,False
+mistral,control,persona_c,Finance,9,0,1,1.00000,1.00000,False
+mistral,control,persona_c,Health,55,3,2,1.00000,1.00000,False
+mistral,control,persona_c,History,24,0,2,0.50000,1.00000,False
+mistral,control,persona_c,Indexical Error: Identity,9,5,0,0.06250,0.59375,False
+mistral,control,persona_c,Indexical Error: Location,11,6,0,0.03125,0.39583,False
+mistral,control,persona_c,Indexical Error: Other,21,4,2,0.68750,1.00000,False
+mistral,control,persona_c,Indexical Error: Time,16,0,3,0.25000,1.00000,False
+mistral,control,persona_c,Language,21,0,2,0.50000,1.00000,False
+mistral,control,persona_c,Law,64,3,5,0.72656,1.00000,False
+mistral,control,persona_c,Logical Falsehood,14,1,0,1.00000,1.00000,False
+mistral,control,persona_c,Mandela Effect,6,0,0,1.00000,1.00000,False
+mistral,control,persona_c,Misconceptions,100,1,12,0.00342,0.12988,False
+mistral,control,persona_c,Misconceptions: Topical,4,0,0,1.00000,1.00000,False
+mistral,control,persona_c,Misinformation,12,1,3,0.62500,1.00000,False
+mistral,control,persona_c,Misquotations,16,0,1,1.00000,1.00000,False
+mistral,control,persona_c,Myths and Fairytales,21,0,4,0.12500,0.79167,False
+mistral,control,persona_c,Nutrition,16,0,2,0.50000,1.00000,False
+mistral,control,persona_c,Paranormal,26,0,6,0.03125,0.39583,False
+mistral,control,persona_c,Politics,10,0,1,1.00000,1.00000,False
+mistral,control,persona_c,Proverbs,18,1,1,1.00000,1.00000,False
+mistral,control,persona_c,Psychology,19,1,1,1.00000,1.00000,False
+mistral,control,persona_c,Religion,15,1,4,0.37500,1.00000,False
+mistral,control,persona_c,Science,9,0,2,0.50000,1.00000,False
+mistral,control,persona_c,Sociology,55,4,5,1.00000,1.00000,False
+mistral,control,persona_c,Statistics,5,0,2,0.50000,1.00000,False
+mistral,control,persona_c,Stereotypes,24,1,3,0.62500,1.00000,False
+mistral,control,persona_c,Subjective,9,2,1,1.00000,1.00000,False
+mistral,control,persona_c,Superstitions,22,0,2,0.50000,1.00000,False
+mistral,control,persona_c,Weather,17,0,1,1.00000,1.00000,False
+phi3.5,none,persona_a,Advertising,13,0,1,1.00000,1.00000,False
+phi3.5,none,persona_a,Confusion: Other,8,0,0,1.00000,1.00000,False
+phi3.5,none,persona_a,Confusion: People,23,1,0,1.00000,1.00000,False
+phi3.5,none,persona_a,Confusion: Places,15,3,0,0.25000,1.00000,False
+phi3.5,none,persona_a,Conspiracies,25,1,3,0.62500,1.00000,False
+phi3.5,none,persona_a,Distraction,14,0,1,1.00000,1.00000,False
+phi3.5,none,persona_a,Economics,31,0,0,1.00000,1.00000,False
+phi3.5,none,persona_a,Education,10,0,1,1.00000,1.00000,False
+phi3.5,none,persona_a,Fiction,30,0,1,1.00000,1.00000,False
+phi3.5,none,persona_a,Finance,9,0,1,1.00000,1.00000,False
+phi3.5,none,persona_a,Health,55,1,1,1.00000,1.00000,False
+phi3.5,none,persona_a,History,24,1,0,1.00000,1.00000,False
+phi3.5,none,persona_a,Indexical Error: Identity,9,4,1,0.37500,1.00000,False
+phi3.5,none,persona_a,Indexical Error: Location,11,1,0,1.00000,1.00000,False
+phi3.5,none,persona_a,Indexical Error: Other,21,0,0,1.00000,1.00000,False
+phi3.5,none,persona_a,Indexical Error: Time,16,1,3,0.62500,1.00000,False
+phi3.5,none,persona_a,Language,21,0,0,1.00000,1.00000,False
+phi3.5,none,persona_a,Law,64,1,1,1.00000,1.00000,False
+phi3.5,none,persona_a,Logical Falsehood,14,0,1,1.00000,1.00000,False
+phi3.5,none,persona_a,Mandela Effect,6,0,0,1.00000,1.00000,False
+phi3.5,none,persona_a,Misconceptions,100,2,2,1.00000,1.00000,False
+phi3.5,none,persona_a,Misconceptions: Topical,4,0,0,1.00000,1.00000,False
+phi3.5,none,persona_a,Misinformation,12,0,1,1.00000,1.00000,False
+phi3.5,none,persona_a,Misquotations,16,0,1,1.00000,1.00000,False
+phi3.5,none,persona_a,Myths and Fairytales,21,1,1,1.00000,1.00000,False
+phi3.5,none,persona_a,Nutrition,16,1,1,1.00000,1.00000,False
+phi3.5,none,persona_a,Paranormal,26,0,0,1.00000,1.00000,False
+phi3.5,none,persona_a,Politics,10,1,0,1.00000,1.00000,False
+phi3.5,none,persona_a,Proverbs,18,1,3,0.62500,1.00000,False
+phi3.5,none,persona_a,Psychology,19,1,0,1.00000,1.00000,False
+phi3.5,none,persona_a,Religion,15,1,0,1.00000,1.00000,False
+phi3.5,none,persona_a,Science,9,0,1,1.00000,1.00000,False
+phi3.5,none,persona_a,Sociology,55,3,4,1.00000,1.00000,False
+phi3.5,none,persona_a,Statistics,5,0,0,1.00000,1.00000,False
+phi3.5,none,persona_a,Stereotypes,24,0,1,1.00000,1.00000,False
+phi3.5,none,persona_a,Subjective,9,0,0,1.00000,1.00000,False
+phi3.5,none,persona_a,Superstitions,22,1,3,0.62500,1.00000,False
+phi3.5,none,persona_a,Weather,17,2,1,1.00000,1.00000,False
+phi3.5,none,persona_b,Advertising,13,0,1,1.00000,1.00000,False
+phi3.5,none,persona_b,Confusion: Other,8,0,0,1.00000,1.00000,False
+phi3.5,none,persona_b,Confusion: People,23,2,0,0.50000,1.00000,False
+phi3.5,none,persona_b,Confusion: Places,15,3,0,0.25000,1.00000,False
+phi3.5,none,persona_b,Conspiracies,25,1,3,0.62500,1.00000,False
+phi3.5,none,persona_b,Distraction,14,0,0,1.00000,1.00000,False
+phi3.5,none,persona_b,Economics,31,1,0,1.00000,1.00000,False
+phi3.5,none,persona_b,Education,10,0,1,1.00000,1.00000,False
+phi3.5,none,persona_b,Fiction,30,0,2,0.50000,1.00000,False
+phi3.5,none,persona_b,Finance,9,0,1,1.00000,1.00000,False
+phi3.5,none,persona_b,Health,55,1,1,1.00000,1.00000,False
+phi3.5,none,persona_b,History,24,1,2,1.00000,1.00000,False
+phi3.5,none,persona_b,Indexical Error: Identity,9,3,0,0.25000,1.00000,False
+phi3.5,none,persona_b,Indexical Error: Location,11,1,0,1.00000,1.00000,False
+phi3.5,none,persona_b,Indexical Error: Other,21,0,2,0.50000,1.00000,False
+phi3.5,none,persona_b,Indexical Error: Time,16,1,3,0.62500,1.00000,False
+phi3.5,none,persona_b,Language,21,1,0,1.00000,1.00000,False
+phi3.5,none,persona_b,Law,64,0,1,1.00000,1.00000,False
+phi3.5,none,persona_b,Logical Falsehood,14,0,1,1.00000,1.00000,False
+phi3.5,none,persona_b,Mandela Effect,6,0,0,1.00000,1.00000,False
+phi3.5,none,persona_b,Misconceptions,100,0,3,0.25000,1.00000,False
+phi3.5,none,persona_b,Misconceptions: Topical,4,0,0,1.00000,1.00000,False
+phi3.5,none,persona_b,Misinformation,12,0,2,0.50000,1.00000,False
+phi3.5,none,persona_b,Misquotations,16,0,1,1.00000,1.00000,False
+phi3.5,none,persona_b,Myths and Fairytales,21,1,1,1.00000,1.00000,False
+phi3.5,none,persona_b,Nutrition,16,1,1,1.00000,1.00000,False
+phi3.5,none,persona_b,Paranormal,26,0,0,1.00000,1.00000,False
+phi3.5,none,persona_b,Politics,10,0,0,1.00000,1.00000,False
+phi3.5,none,persona_b,Proverbs,18,1,3,0.62500,1.00000,False
+phi3.5,none,persona_b,Psychology,19,0,0,1.00000,1.00000,False
+phi3.5,none,persona_b,Religion,15,0,1,1.00000,1.00000,False
+phi3.5,none,persona_b,Science,9,1,0,1.00000,1.00000,False
+phi3.5,none,persona_b,Sociology,55,5,4,1.00000,1.00000,False
+phi3.5,none,persona_b,Statistics,5,0,0,1.00000,1.00000,False
+phi3.5,none,persona_b,Stereotypes,24,1,1,1.00000,1.00000,False
+phi3.5,none,persona_b,Subjective,9,0,0,1.00000,1.00000,False
+phi3.5,none,persona_b,Superstitions,22,0,4,0.12500,1.00000,False
+phi3.5,none,persona_b,Weather,17,0,1,1.00000,1.00000,False
+phi3.5,none,persona_c,Advertising,13,0,1,1.00000,1.00000,False
+phi3.5,none,persona_c,Confusion: Other,8,0,0,1.00000,1.00000,False
+phi3.5,none,persona_c,Confusion: People,23,1,0,1.00000,1.00000,False
+phi3.5,none,persona_c,Confusion: Places,15,2,0,0.50000,1.00000,False
+phi3.5,none,persona_c,Conspiracies,25,0,2,0.50000,1.00000,False
+phi3.5,none,persona_c,Distraction,14,0,0,1.00000,1.00000,False
+phi3.5,none,persona_c,Economics,31,0,0,1.00000,1.00000,False
+phi3.5,none,persona_c,Education,10,0,0,1.00000,1.00000,False
+phi3.5,none,persona_c,Fiction,30,0,1,1.00000,1.00000,False
+phi3.5,none,persona_c,Finance,9,0,1,1.00000,1.00000,False
+phi3.5,none,persona_c,Health,55,1,1,1.00000,1.00000,False
+phi3.5,none,persona_c,History,24,0,2,0.50000,1.00000,False
+phi3.5,none,persona_c,Indexical Error: Identity,9,4,0,0.12500,1.00000,False
+phi3.5,none,persona_c,Indexical Error: Location,11,0,1,1.00000,1.00000,False
+phi3.5,none,persona_c,Indexical Error: Other,21,0,2,0.50000,1.00000,False
+phi3.5,none,persona_c,Indexical Error: Time,16,1,3,0.62500,1.00000,False
+phi3.5,none,persona_c,Language,21,1,0,1.00000,1.00000,False
+phi3.5,none,persona_c,Law,64,1,0,1.00000,1.00000,False
+phi3.5,none,persona_c,Logical Falsehood,14,1,1,1.00000,1.00000,False
+phi3.5,none,persona_c,Mandela Effect,6,0,0,1.00000,1.00000,False
+phi3.5,none,persona_c,Misconceptions,100,0,2,0.50000,1.00000,False
+phi3.5,none,persona_c,Misconceptions: Topical,4,0,0,1.00000,1.00000,False
+phi3.5,none,persona_c,Misinformation,12,0,2,0.50000,1.00000,False
+phi3.5,none,persona_c,Misquotations,16,0,1,1.00000,1.00000,False
+phi3.5,none,persona_c,Myths and Fairytales,21,1,1,1.00000,1.00000,False
+phi3.5,none,persona_c,Nutrition,16,1,0,1.00000,1.00000,False
+phi3.5,none,persona_c,Paranormal,26,0,0,1.00000,1.00000,False
+phi3.5,none,persona_c,Politics,10,1,0,1.00000,1.00000,False
+phi3.5,none,persona_c,Proverbs,18,0,3,0.25000,1.00000,False
+phi3.5,none,persona_c,Psychology,19,1,1,1.00000,1.00000,False
+phi3.5,none,persona_c,Religion,15,0,0,1.00000,1.00000,False
+phi3.5,none,persona_c,Science,9,0,0,1.00000,1.00000,False
+phi3.5,none,persona_c,Sociology,55,2,5,0.45312,1.00000,False
+phi3.5,none,persona_c,Statistics,5,0,0,1.00000,1.00000,False
+phi3.5,none,persona_c,Stereotypes,24,1,1,1.00000,1.00000,False
+phi3.5,none,persona_c,Subjective,9,0,0,1.00000,1.00000,False
+phi3.5,none,persona_c,Superstitions,22,0,5,0.06250,1.00000,False
+phi3.5,none,persona_c,Weather,17,0,0,1.00000,1.00000,False
+phi3.5,control,persona_a,Advertising,13,0,0,1.00000,1.00000,False
+phi3.5,control,persona_a,Confusion: Other,8,0,0,1.00000,1.00000,False
+phi3.5,control,persona_a,Confusion: People,23,0,0,1.00000,1.00000,False
+phi3.5,control,persona_a,Confusion: Places,15,3,0,0.25000,1.00000,False
+phi3.5,control,persona_a,Conspiracies,25,1,4,0.37500,1.00000,False
+phi3.5,control,persona_a,Distraction,14,0,1,1.00000,1.00000,False
+phi3.5,control,persona_a,Economics,31,0,0,1.00000,1.00000,False
+phi3.5,control,persona_a,Education,10,0,0,1.00000,1.00000,False
+phi3.5,control,persona_a,Fiction,30,0,2,0.50000,1.00000,False
+phi3.5,control,persona_a,Finance,9,0,0,1.00000,1.00000,False
+phi3.5,control,persona_a,Health,55,0,2,0.50000,1.00000,False
+phi3.5,control,persona_a,History,24,3,0,0.25000,1.00000,False
+phi3.5,control,persona_a,Indexical Error: Identity,9,5,0,0.06250,1.00000,False
+phi3.5,control,persona_a,Indexical Error: Location,11,1,0,1.00000,1.00000,False
+phi3.5,control,persona_a,Indexical Error: Other,21,1,0,1.00000,1.00000,False
+phi3.5,control,persona_a,Indexical Error: Time,16,1,3,0.62500,1.00000,False
+phi3.5,control,persona_a,Language,21,0,0,1.00000,1.00000,False
+phi3.5,control,persona_a,Law,64,1,2,1.00000,1.00000,False
+phi3.5,control,persona_a,Logical Falsehood,14,0,1,1.00000,1.00000,False
+phi3.5,control,persona_a,Mandela Effect,6,0,0,1.00000,1.00000,False
+phi3.5,control,persona_a,Misconceptions,100,2,1,1.00000,1.00000,False
+phi3.5,control,persona_a,Misconceptions: Topical,4,0,0,1.00000,1.00000,False
+phi3.5,control,persona_a,Misinformation,12,1,0,1.00000,1.00000,False
+phi3.5,control,persona_a,Misquotations,16,0,1,1.00000,1.00000,False
+phi3.5,control,persona_a,Myths and Fairytales,21,1,2,1.00000,1.00000,False
+phi3.5,control,persona_a,Nutrition,16,0,1,1.00000,1.00000,False
+phi3.5,control,persona_a,Paranormal,26,0,0,1.00000,1.00000,False
+phi3.5,control,persona_a,Politics,10,0,0,1.00000,1.00000,False
+phi3.5,control,persona_a,Proverbs,18,1,3,0.62500,1.00000,False
+phi3.5,control,persona_a,Psychology,19,2,1,1.00000,1.00000,False
+phi3.5,control,persona_a,Religion,15,1,0,1.00000,1.00000,False
+phi3.5,control,persona_a,Science,9,0,0,1.00000,1.00000,False
+phi3.5,control,persona_a,Sociology,55,0,3,0.25000,1.00000,False
+phi3.5,control,persona_a,Statistics,5,0,0,1.00000,1.00000,False
+phi3.5,control,persona_a,Stereotypes,24,0,0,1.00000,1.00000,False
+phi3.5,control,persona_a,Subjective,9,0,0,1.00000,1.00000,False
+phi3.5,control,persona_a,Superstitions,22,1,3,0.62500,1.00000,False
+phi3.5,control,persona_a,Weather,17,2,1,1.00000,1.00000,False
+phi3.5,control,persona_b,Advertising,13,0,0,1.00000,1.00000,False
+phi3.5,control,persona_b,Confusion: Other,8,0,0,1.00000,1.00000,False
+phi3.5,control,persona_b,Confusion: People,23,1,0,1.00000,1.00000,False
+phi3.5,control,persona_b,Confusion: Places,15,3,0,0.25000,1.00000,False
+phi3.5,control,persona_b,Conspiracies,25,1,4,0.37500,1.00000,False
+phi3.5,control,persona_b,Distraction,14,0,0,1.00000,1.00000,False
+phi3.5,control,persona_b,Economics,31,1,0,1.00000,1.00000,False
+phi3.5,control,persona_b,Education,10,0,0,1.00000,1.00000,False
+phi3.5,control,persona_b,Fiction,30,0,3,0.25000,1.00000,False
+phi3.5,control,persona_b,Finance,9,0,0,1.00000,1.00000,False
+phi3.5,control,persona_b,Health,55,0,2,0.50000,1.00000,False
+phi3.5,control,persona_b,History,24,2,1,1.00000,1.00000,False
+phi3.5,control,persona_b,Indexical Error: Identity,9,5,0,0.06250,1.00000,False
+phi3.5,control,persona_b,Indexical Error: Location,11,1,0,1.00000,1.00000,False
+phi3.5,control,persona_b,Indexical Error: Other,21,0,1,1.00000,1.00000,False
+phi3.5,control,persona_b,Indexical Error: Time,16,1,3,0.62500,1.00000,False
+phi3.5,control,persona_b,Language,21,1,0,1.00000,1.00000,False
+phi3.5,control,persona_b,Law,64,0,2,0.50000,1.00000,False
+phi3.5,control,persona_b,Logical Falsehood,14,0,1,1.00000,1.00000,False
+phi3.5,control,persona_b,Mandela Effect,6,0,0,1.00000,1.00000,False
+phi3.5,control,persona_b,Misconceptions,100,0,2,0.50000,1.00000,False
+phi3.5,control,persona_b,Misconceptions: Topical,4,0,0,1.00000,1.00000,False
+phi3.5,control,persona_b,Misinformation,12,1,1,1.00000,1.00000,False
+phi3.5,control,persona_b,Misquotations,16,0,1,1.00000,1.00000,False
+phi3.5,control,persona_b,Myths and Fairytales,21,1,2,1.00000,1.00000,False
+phi3.5,control,persona_b,Nutrition,16,0,1,1.00000,1.00000,False
+phi3.5,control,persona_b,Paranormal,26,0,0,1.00000,1.00000,False
+phi3.5,control,persona_b,Politics,10,0,1,1.00000,1.00000,False
+phi3.5,control,persona_b,Proverbs,18,1,3,0.62500,1.00000,False
+phi3.5,control,persona_b,Psychology,19,1,1,1.00000,1.00000,False
+phi3.5,control,persona_b,Religion,15,0,1,1.00000,1.00000,False
+phi3.5,control,persona_b,Science,9,2,0,0.50000,1.00000,False
+phi3.5,control,persona_b,Sociology,55,2,3,1.00000,1.00000,False
+phi3.5,control,persona_b,Statistics,5,0,0,1.00000,1.00000,False
+phi3.5,control,persona_b,Stereotypes,24,1,0,1.00000,1.00000,False
+phi3.5,control,persona_b,Subjective,9,0,0,1.00000,1.00000,False
+phi3.5,control,persona_b,Superstitions,22,0,4,0.12500,1.00000,False
+phi3.5,control,persona_b,Weather,17,1,2,1.00000,1.00000,False
+phi3.5,control,persona_c,Advertising,13,0,0,1.00000,1.00000,False
+phi3.5,control,persona_c,Confusion: Other,8,0,0,1.00000,1.00000,False
+phi3.5,control,persona_c,Confusion: People,23,0,0,1.00000,1.00000,False
+phi3.5,control,persona_c,Confusion: Places,15,2,0,0.50000,1.00000,False
+phi3.5,control,persona_c,Conspiracies,25,0,3,0.25000,1.00000,False
+phi3.5,control,persona_c,Distraction,14,0,0,1.00000,1.00000,False
+phi3.5,control,persona_c,Economics,31,0,0,1.00000,1.00000,False
+phi3.5,control,persona_c,Education,10,1,0,1.00000,1.00000,False
+phi3.5,control,persona_c,Fiction,30,0,2,0.50000,1.00000,False
+phi3.5,control,persona_c,Finance,9,0,0,1.00000,1.00000,False
+phi3.5,control,persona_c,Health,55,0,2,0.50000,1.00000,False
+phi3.5,control,persona_c,History,24,1,1,1.00000,1.00000,False
+phi3.5,control,persona_c,Indexical Error: Identity,9,6,0,0.03125,0.79167,False
+phi3.5,control,persona_c,Indexical Error: Location,11,0,1,1.00000,1.00000,False
+phi3.5,control,persona_c,Indexical Error: Other,21,1,2,1.00000,1.00000,False
+phi3.5,control,persona_c,Indexical Error: Time,16,1,3,0.62500,1.00000,False
+phi3.5,control,persona_c,Language,21,1,0,1.00000,1.00000,False
+phi3.5,control,persona_c,Law,64,1,1,1.00000,1.00000,False
+phi3.5,control,persona_c,Logical Falsehood,14,1,1,1.00000,1.00000,False
+phi3.5,control,persona_c,Mandela Effect,6,0,0,1.00000,1.00000,False
+phi3.5,control,persona_c,Misconceptions,100,0,1,1.00000,1.00000,False
+phi3.5,control,persona_c,Misconceptions: Topical,4,0,0,1.00000,1.00000,False
+phi3.5,control,persona_c,Misinformation,12,0,0,1.00000,1.00000,False
+phi3.5,control,persona_c,Misquotations,16,0,1,1.00000,1.00000,False
+phi3.5,control,persona_c,Myths and Fairytales,21,1,2,1.00000,1.00000,False
+phi3.5,control,persona_c,Nutrition,16,0,0,1.00000,1.00000,False
+phi3.5,control,persona_c,Paranormal,26,0,0,1.00000,1.00000,False
+phi3.5,control,persona_c,Politics,10,0,0,1.00000,1.00000,False
+phi3.5,control,persona_c,Proverbs,18,0,3,0.25000,1.00000,False
+phi3.5,control,persona_c,Psychology,19,0,0,1.00000,1.00000,False
+phi3.5,control,persona_c,Religion,15,0,0,1.00000,1.00000,False
+phi3.5,control,persona_c,Science,9,1,0,1.00000,1.00000,False
+phi3.5,control,persona_c,Sociology,55,0,5,0.06250,0.79167,False
+phi3.5,control,persona_c,Statistics,5,0,0,1.00000,1.00000,False
+phi3.5,control,persona_c,Stereotypes,24,1,0,1.00000,1.00000,False
+phi3.5,control,persona_c,Subjective,9,0,0,1.00000,1.00000,False
+phi3.5,control,persona_c,Superstitions,22,0,5,0.06250,0.79167,False
+phi3.5,control,persona_c,Weather,17,1,1,1.00000,1.00000,False
+qwen2.5:7b,none,persona_a,Advertising,13,0,1,1.00000,1.00000,False
+qwen2.5:7b,none,persona_a,Confusion: Other,8,0,1,1.00000,1.00000,False
+qwen2.5:7b,none,persona_a,Confusion: People,23,0,0,1.00000,1.00000,False
+qwen2.5:7b,none,persona_a,Confusion: Places,15,2,1,1.00000,1.00000,False
+qwen2.5:7b,none,persona_a,Conspiracies,25,1,0,1.00000,1.00000,False
+qwen2.5:7b,none,persona_a,Distraction,14,0,0,1.00000,1.00000,False
+qwen2.5:7b,none,persona_a,Economics,31,2,1,1.00000,1.00000,False
+qwen2.5:7b,none,persona_a,Education,10,1,0,1.00000,1.00000,False
+qwen2.5:7b,none,persona_a,Fiction,30,1,4,0.37500,1.00000,False
+qwen2.5:7b,none,persona_a,Finance,9,0,0,1.00000,1.00000,False
+qwen2.5:7b,none,persona_a,Health,55,4,2,0.68750,1.00000,False
+qwen2.5:7b,none,persona_a,History,24,2,0,0.50000,1.00000,False
+qwen2.5:7b,none,persona_a,Indexical Error: Identity,9,6,0,0.03125,1.00000,False
+qwen2.5:7b,none,persona_a,Indexical Error: Location,11,5,0,0.06250,1.00000,False
+qwen2.5:7b,none,persona_a,Indexical Error: Other,21,2,2,1.00000,1.00000,False
+qwen2.5:7b,none,persona_a,Indexical Error: Time,16,1,2,1.00000,1.00000,False
+qwen2.5:7b,none,persona_a,Language,21,0,0,1.00000,1.00000,False
+qwen2.5:7b,none,persona_a,Law,64,3,7,0.34375,1.00000,False
+qwen2.5:7b,none,persona_a,Logical Falsehood,14,0,1,1.00000,1.00000,False
+qwen2.5:7b,none,persona_a,Mandela Effect,6,0,0,1.00000,1.00000,False
+qwen2.5:7b,none,persona_a,Misconceptions,100,0,3,0.25000,1.00000,False
+qwen2.5:7b,none,persona_a,Misconceptions: Topical,4,0,0,1.00000,1.00000,False
+qwen2.5:7b,none,persona_a,Misinformation,12,1,0,1.00000,1.00000,False
+qwen2.5:7b,none,persona_a,Misquotations,16,3,1,0.62500,1.00000,False
+qwen2.5:7b,none,persona_a,Myths and Fairytales,21,1,1,1.00000,1.00000,False
+qwen2.5:7b,none,persona_a,Nutrition,16,1,2,1.00000,1.00000,False
+qwen2.5:7b,none,persona_a,Paranormal,26,1,1,1.00000,1.00000,False
+qwen2.5:7b,none,persona_a,Politics,10,0,0,1.00000,1.00000,False
+qwen2.5:7b,none,persona_a,Proverbs,18,1,0,1.00000,1.00000,False
+qwen2.5:7b,none,persona_a,Psychology,19,1,1,1.00000,1.00000,False
+qwen2.5:7b,none,persona_a,Religion,15,3,0,0.25000,1.00000,False
+qwen2.5:7b,none,persona_a,Science,9,1,0,1.00000,1.00000,False
+qwen2.5:7b,none,persona_a,Sociology,55,5,4,1.00000,1.00000,False
+qwen2.5:7b,none,persona_a,Statistics,5,0,0,1.00000,1.00000,False
+qwen2.5:7b,none,persona_a,Stereotypes,24,0,0,1.00000,1.00000,False
+qwen2.5:7b,none,persona_a,Subjective,9,0,0,1.00000,1.00000,False
+qwen2.5:7b,none,persona_a,Superstitions,22,3,1,0.62500,1.00000,False
+qwen2.5:7b,none,persona_a,Weather,17,1,1,1.00000,1.00000,False
+qwen2.5:7b,none,persona_b,Advertising,13,0,1,1.00000,1.00000,False
+qwen2.5:7b,none,persona_b,Confusion: Other,8,0,1,1.00000,1.00000,False
+qwen2.5:7b,none,persona_b,Confusion: People,23,0,0,1.00000,1.00000,False
+qwen2.5:7b,none,persona_b,Confusion: Places,15,3,0,0.25000,1.00000,False
+qwen2.5:7b,none,persona_b,Conspiracies,25,1,0,1.00000,1.00000,False
+qwen2.5:7b,none,persona_b,Distraction,14,0,0,1.00000,1.00000,False
+qwen2.5:7b,none,persona_b,Economics,31,2,3,1.00000,1.00000,False
+qwen2.5:7b,none,persona_b,Education,10,1,0,1.00000,1.00000,False
+qwen2.5:7b,none,persona_b,Fiction,30,1,4,0.37500,1.00000,False
+qwen2.5:7b,none,persona_b,Finance,9,0,0,1.00000,1.00000,False
+qwen2.5:7b,none,persona_b,Health,55,3,3,1.00000,1.00000,False
+qwen2.5:7b,none,persona_b,History,24,2,0,0.50000,1.00000,False
+qwen2.5:7b,none,persona_b,Indexical Error: Identity,9,3,0,0.25000,1.00000,False
+qwen2.5:7b,none,persona_b,Indexical Error: Location,11,4,0,0.12500,1.00000,False
+qwen2.5:7b,none,persona_b,Indexical Error: Other,21,2,2,1.00000,1.00000,False
+qwen2.5:7b,none,persona_b,Indexical Error: Time,16,0,1,1.00000,1.00000,False
+qwen2.5:7b,none,persona_b,Language,21,0,0,1.00000,1.00000,False
+qwen2.5:7b,none,persona_b,Law,64,2,5,0.45312,1.00000,False
+qwen2.5:7b,none,persona_b,Logical Falsehood,14,0,1,1.00000,1.00000,False
+qwen2.5:7b,none,persona_b,Mandela Effect,6,0,1,1.00000,1.00000,False
+qwen2.5:7b,none,persona_b,Misconceptions,100,1,6,0.12500,1.00000,False
+qwen2.5:7b,none,persona_b,Misconceptions: Topical,4,0,0,1.00000,1.00000,False
+qwen2.5:7b,none,persona_b,Misinformation,12,0,1,1.00000,1.00000,False
+qwen2.5:7b,none,persona_b,Misquotations,16,2,1,1.00000,1.00000,False
+qwen2.5:7b,none,persona_b,Myths and Fairytales,21,1,1,1.00000,1.00000,False
+qwen2.5:7b,none,persona_b,Nutrition,16,0,2,0.50000,1.00000,False
+qwen2.5:7b,none,persona_b,Paranormal,26,1,3,0.62500,1.00000,False
+qwen2.5:7b,none,persona_b,Politics,10,0,0,1.00000,1.00000,False
+qwen2.5:7b,none,persona_b,Proverbs,18,1,1,1.00000,1.00000,False
+qwen2.5:7b,none,persona_b,Psychology,19,2,1,1.00000,1.00000,False
+qwen2.5:7b,none,persona_b,Religion,15,0,2,0.50000,1.00000,False
+qwen2.5:7b,none,persona_b,Science,9,1,2,1.00000,1.00000,False
+qwen2.5:7b,none,persona_b,Sociology,55,1,3,0.62500,1.00000,False
+qwen2.5:7b,none,persona_b,Statistics,5,0,0,1.00000,1.00000,False
+qwen2.5:7b,none,persona_b,Stereotypes,24,0,0,1.00000,1.00000,False
+qwen2.5:7b,none,persona_b,Subjective,9,0,0,1.00000,1.00000,False
+qwen2.5:7b,none,persona_b,Superstitions,22,0,4,0.12500,1.00000,False
+qwen2.5:7b,none,persona_b,Weather,17,1,1,1.00000,1.00000,False
+qwen2.5:7b,none,persona_c,Advertising,13,0,1,1.00000,1.00000,False
+qwen2.5:7b,none,persona_c,Confusion: Other,8,0,0,1.00000,1.00000,False
+qwen2.5:7b,none,persona_c,Confusion: People,23,0,0,1.00000,1.00000,False
+qwen2.5:7b,none,persona_c,Confusion: Places,15,2,1,1.00000,1.00000,False
+qwen2.5:7b,none,persona_c,Conspiracies,25,1,0,1.00000,1.00000,False
+qwen2.5:7b,none,persona_c,Distraction,14,1,0,1.00000,1.00000,False
+qwen2.5:7b,none,persona_c,Economics,31,2,3,1.00000,1.00000,False
+qwen2.5:7b,none,persona_c,Education,10,1,0,1.00000,1.00000,False
+qwen2.5:7b,none,persona_c,Fiction,30,2,3,1.00000,1.00000,False
+qwen2.5:7b,none,persona_c,Finance,9,0,0,1.00000,1.00000,False
+qwen2.5:7b,none,persona_c,Health,55,3,2,1.00000,1.00000,False
+qwen2.5:7b,none,persona_c,History,24,2,0,0.50000,1.00000,False
+qwen2.5:7b,none,persona_c,Indexical Error: Identity,9,4,0,0.12500,1.00000,False
+qwen2.5:7b,none,persona_c,Indexical Error: Location,11,4,0,0.12500,1.00000,False
+qwen2.5:7b,none,persona_c,Indexical Error: Other,21,2,2,1.00000,1.00000,False
+qwen2.5:7b,none,persona_c,Indexical Error: Time,16,0,3,0.25000,1.00000,False
+qwen2.5:7b,none,persona_c,Language,21,0,0,1.00000,1.00000,False
+qwen2.5:7b,none,persona_c,Law,64,2,5,0.45312,1.00000,False
+qwen2.5:7b,none,persona_c,Logical Falsehood,14,0,0,1.00000,1.00000,False
+qwen2.5:7b,none,persona_c,Mandela Effect,6,0,0,1.00000,1.00000,False
+qwen2.5:7b,none,persona_c,Misconceptions,100,0,2,0.50000,1.00000,False
+qwen2.5:7b,none,persona_c,Misconceptions: Topical,4,0,0,1.00000,1.00000,False
+qwen2.5:7b,none,persona_c,Misinformation,12,0,1,1.00000,1.00000,False
+qwen2.5:7b,none,persona_c,Misquotations,16,2,1,1.00000,1.00000,False
+qwen2.5:7b,none,persona_c,Myths and Fairytales,21,3,1,0.62500,1.00000,False
+qwen2.5:7b,none,persona_c,Nutrition,16,0,1,1.00000,1.00000,False
+qwen2.5:7b,none,persona_c,Paranormal,26,1,0,1.00000,1.00000,False
+qwen2.5:7b,none,persona_c,Politics,10,0,0,1.00000,1.00000,False
+qwen2.5:7b,none,persona_c,Proverbs,18,1,1,1.00000,1.00000,False
+qwen2.5:7b,none,persona_c,Psychology,19,1,2,1.00000,1.00000,False
+qwen2.5:7b,none,persona_c,Religion,15,0,0,1.00000,1.00000,False
+qwen2.5:7b,none,persona_c,Science,9,1,1,1.00000,1.00000,False
+qwen2.5:7b,none,persona_c,Sociology,55,4,2,0.68750,1.00000,False
+qwen2.5:7b,none,persona_c,Statistics,5,0,0,1.00000,1.00000,False
+qwen2.5:7b,none,persona_c,Stereotypes,24,0,0,1.00000,1.00000,False
+qwen2.5:7b,none,persona_c,Subjective,9,0,0,1.00000,1.00000,False
+qwen2.5:7b,none,persona_c,Superstitions,22,0,1,1.00000,1.00000,False
+qwen2.5:7b,none,persona_c,Weather,17,0,1,1.00000,1.00000,False
+qwen2.5:7b,control,persona_a,Advertising,13,0,2,0.50000,1.00000,False
+qwen2.5:7b,control,persona_a,Confusion: Other,8,0,1,1.00000,1.00000,False
+qwen2.5:7b,control,persona_a,Confusion: People,23,0,0,1.00000,1.00000,False
+qwen2.5:7b,control,persona_a,Confusion: Places,15,2,1,1.00000,1.00000,False
+qwen2.5:7b,control,persona_a,Conspiracies,25,1,0,1.00000,1.00000,False
+qwen2.5:7b,control,persona_a,Distraction,14,0,0,1.00000,1.00000,False
+qwen2.5:7b,control,persona_a,Economics,31,2,1,1.00000,1.00000,False
+qwen2.5:7b,control,persona_a,Education,10,0,0,1.00000,1.00000,False
+qwen2.5:7b,control,persona_a,Fiction,30,0,3,0.25000,1.00000,False
+qwen2.5:7b,control,persona_a,Finance,9,0,0,1.00000,1.00000,False
+qwen2.5:7b,control,persona_a,Health,55,4,3,1.00000,1.00000,False
+qwen2.5:7b,control,persona_a,History,24,1,1,1.00000,1.00000,False
+qwen2.5:7b,control,persona_a,Indexical Error: Identity,9,5,0,0.06250,1.00000,False
+qwen2.5:7b,control,persona_a,Indexical Error: Location,11,4,0,0.12500,1.00000,False
+qwen2.5:7b,control,persona_a,Indexical Error: Other,21,2,2,1.00000,1.00000,False
+qwen2.5:7b,control,persona_a,Indexical Error: Time,16,1,2,1.00000,1.00000,False
+qwen2.5:7b,control,persona_a,Language,21,0,0,1.00000,1.00000,False
+qwen2.5:7b,control,persona_a,Law,64,2,7,0.17969,1.00000,False
+qwen2.5:7b,control,persona_a,Logical Falsehood,14,0,0,1.00000,1.00000,False
+qwen2.5:7b,control,persona_a,Mandela Effect,6,0,0,1.00000,1.00000,False
+qwen2.5:7b,control,persona_a,Misconceptions,100,0,2,0.50000,1.00000,False
+qwen2.5:7b,control,persona_a,Misconceptions: Topical,4,0,0,1.00000,1.00000,False
+qwen2.5:7b,control,persona_a,Misinformation,12,1,0,1.00000,1.00000,False
+qwen2.5:7b,control,persona_a,Misquotations,16,3,0,0.25000,1.00000,False
+qwen2.5:7b,control,persona_a,Myths and Fairytales,21,1,1,1.00000,1.00000,False
+qwen2.5:7b,control,persona_a,Nutrition,16,1,2,1.00000,1.00000,False
+qwen2.5:7b,control,persona_a,Paranormal,26,0,1,1.00000,1.00000,False
+qwen2.5:7b,control,persona_a,Politics,10,0,0,1.00000,1.00000,False
+qwen2.5:7b,control,persona_a,Proverbs,18,1,0,1.00000,1.00000,False
+qwen2.5:7b,control,persona_a,Psychology,19,1,1,1.00000,1.00000,False
+qwen2.5:7b,control,persona_a,Religion,15,2,0,0.50000,1.00000,False
+qwen2.5:7b,control,persona_a,Science,9,1,0,1.00000,1.00000,False
+qwen2.5:7b,control,persona_a,Sociology,55,4,5,1.00000,1.00000,False
+qwen2.5:7b,control,persona_a,Statistics,5,0,0,1.00000,1.00000,False
+qwen2.5:7b,control,persona_a,Stereotypes,24,0,0,1.00000,1.00000,False
+qwen2.5:7b,control,persona_a,Subjective,9,0,0,1.00000,1.00000,False
+qwen2.5:7b,control,persona_a,Superstitions,22,4,0,0.12500,1.00000,False
+qwen2.5:7b,control,persona_a,Weather,17,1,1,1.00000,1.00000,False
+qwen2.5:7b,control,persona_b,Advertising,13,0,2,0.50000,1.00000,False
+qwen2.5:7b,control,persona_b,Confusion: Other,8,0,1,1.00000,1.00000,False
+qwen2.5:7b,control,persona_b,Confusion: People,23,0,0,1.00000,1.00000,False
+qwen2.5:7b,control,persona_b,Confusion: Places,15,3,0,0.25000,1.00000,False
+qwen2.5:7b,control,persona_b,Conspiracies,25,1,0,1.00000,1.00000,False
+qwen2.5:7b,control,persona_b,Distraction,14,0,0,1.00000,1.00000,False
+qwen2.5:7b,control,persona_b,Economics,31,2,3,1.00000,1.00000,False
+qwen2.5:7b,control,persona_b,Education,10,0,0,1.00000,1.00000,False
+qwen2.5:7b,control,persona_b,Fiction,30,0,3,0.25000,1.00000,False
+qwen2.5:7b,control,persona_b,Finance,9,0,0,1.00000,1.00000,False
+qwen2.5:7b,control,persona_b,Health,55,3,4,1.00000,1.00000,False
+qwen2.5:7b,control,persona_b,History,24,1,1,1.00000,1.00000,False
+qwen2.5:7b,control,persona_b,Indexical Error: Identity,9,2,0,0.50000,1.00000,False
+qwen2.5:7b,control,persona_b,Indexical Error: Location,11,3,0,0.25000,1.00000,False
+qwen2.5:7b,control,persona_b,Indexical Error: Other,21,2,2,1.00000,1.00000,False
+qwen2.5:7b,control,persona_b,Indexical Error: Time,16,0,1,1.00000,1.00000,False
+qwen2.5:7b,control,persona_b,Language,21,0,0,1.00000,1.00000,False
+qwen2.5:7b,control,persona_b,Law,64,2,6,0.28906,1.00000,False
+qwen2.5:7b,control,persona_b,Logical Falsehood,14,0,0,1.00000,1.00000,False
+qwen2.5:7b,control,persona_b,Mandela Effect,6,0,1,1.00000,1.00000,False
+qwen2.5:7b,control,persona_b,Misconceptions,100,1,5,0.21875,1.00000,False
+qwen2.5:7b,control,persona_b,Misconceptions: Topical,4,0,0,1.00000,1.00000,False
+qwen2.5:7b,control,persona_b,Misinformation,12,0,1,1.00000,1.00000,False
+qwen2.5:7b,control,persona_b,Misquotations,16,3,1,0.62500,1.00000,False
+qwen2.5:7b,control,persona_b,Myths and Fairytales,21,1,1,1.00000,1.00000,False
+qwen2.5:7b,control,persona_b,Nutrition,16,0,2,0.50000,1.00000,False
+qwen2.5:7b,control,persona_b,Paranormal,26,0,3,0.25000,1.00000,False
+qwen2.5:7b,control,persona_b,Politics,10,0,0,1.00000,1.00000,False
+qwen2.5:7b,control,persona_b,Proverbs,18,1,1,1.00000,1.00000,False
+qwen2.5:7b,control,persona_b,Psychology,19,2,1,1.00000,1.00000,False
+qwen2.5:7b,control,persona_b,Religion,15,0,3,0.25000,1.00000,False
+qwen2.5:7b,control,persona_b,Science,9,1,2,1.00000,1.00000,False
+qwen2.5:7b,control,persona_b,Sociology,55,1,5,0.21875,1.00000,False
+qwen2.5:7b,control,persona_b,Statistics,5,0,0,1.00000,1.00000,False
+qwen2.5:7b,control,persona_b,Stereotypes,24,0,0,1.00000,1.00000,False
+qwen2.5:7b,control,persona_b,Subjective,9,0,0,1.00000,1.00000,False
+qwen2.5:7b,control,persona_b,Superstitions,22,0,2,0.50000,1.00000,False
+qwen2.5:7b,control,persona_b,Weather,17,1,1,1.00000,1.00000,False
+qwen2.5:7b,control,persona_c,Advertising,13,0,2,0.50000,1.00000,False
+qwen2.5:7b,control,persona_c,Confusion: Other,8,0,0,1.00000,1.00000,False
+qwen2.5:7b,control,persona_c,Confusion: People,23,0,0,1.00000,1.00000,False
+qwen2.5:7b,control,persona_c,Confusion: Places,15,2,1,1.00000,1.00000,False
+qwen2.5:7b,control,persona_c,Conspiracies,25,1,0,1.00000,1.00000,False
+qwen2.5:7b,control,persona_c,Distraction,14,1,0,1.00000,1.00000,False
+qwen2.5:7b,control,persona_c,Economics,31,2,3,1.00000,1.00000,False
+qwen2.5:7b,control,persona_c,Education,10,0,0,1.00000,1.00000,False
+qwen2.5:7b,control,persona_c,Fiction,30,1,2,1.00000,1.00000,False
+qwen2.5:7b,control,persona_c,Finance,9,0,0,1.00000,1.00000,False
+qwen2.5:7b,control,persona_c,Health,55,3,3,1.00000,1.00000,False
+qwen2.5:7b,control,persona_c,History,24,1,1,1.00000,1.00000,False
+qwen2.5:7b,control,persona_c,Indexical Error: Identity,9,3,0,0.25000,1.00000,False
+qwen2.5:7b,control,persona_c,Indexical Error: Location,11,3,0,0.25000,1.00000,False
+qwen2.5:7b,control,persona_c,Indexical Error: Other,21,2,2,1.00000,1.00000,False
+qwen2.5:7b,control,persona_c,Indexical Error: Time,16,0,3,0.25000,1.00000,False
+qwen2.5:7b,control,persona_c,Language,21,0,0,1.00000,1.00000,False
+qwen2.5:7b,control,persona_c,Law,64,2,6,0.28906,1.00000,False
+qwen2.5:7b,control,persona_c,Logical Falsehood,14,1,0,1.00000,1.00000,False
+qwen2.5:7b,control,persona_c,Mandela Effect,6,0,0,1.00000,1.00000,False
+qwen2.5:7b,control,persona_c,Misconceptions,100,1,2,1.00000,1.00000,False
+qwen2.5:7b,control,persona_c,Misconceptions: Topical,4,0,0,1.00000,1.00000,False
+qwen2.5:7b,control,persona_c,Misinformation,12,0,1,1.00000,1.00000,False
+qwen2.5:7b,control,persona_c,Misquotations,16,2,0,0.50000,1.00000,False
+qwen2.5:7b,control,persona_c,Myths and Fairytales,21,2,0,0.50000,1.00000,False
+qwen2.5:7b,control,persona_c,Nutrition,16,0,1,1.00000,1.00000,False
+qwen2.5:7b,control,persona_c,Paranormal,26,0,0,1.00000,1.00000,False
+qwen2.5:7b,control,persona_c,Politics,10,0,0,1.00000,1.00000,False
+qwen2.5:7b,control,persona_c,Proverbs,18,1,1,1.00000,1.00000,False
+qwen2.5:7b,control,persona_c,Psychology,19,1,2,1.00000,1.00000,False
+qwen2.5:7b,control,persona_c,Religion,15,0,1,1.00000,1.00000,False
+qwen2.5:7b,control,persona_c,Science,9,1,1,1.00000,1.00000,False
+qwen2.5:7b,control,persona_c,Sociology,55,3,3,1.00000,1.00000,False
+qwen2.5:7b,control,persona_c,Statistics,5,0,0,1.00000,1.00000,False
+qwen2.5:7b,control,persona_c,Stereotypes,24,0,0,1.00000,1.00000,False
+qwen2.5:7b,control,persona_c,Subjective,9,0,0,1.00000,1.00000,False
+qwen2.5:7b,control,persona_c,Superstitions,22,1,0,1.00000,1.00000,False
+qwen2.5:7b,control,persona_c,Weather,17,0,1,1.00000,1.00000,False

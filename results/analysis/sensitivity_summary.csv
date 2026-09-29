@@ -1,0 +1,5 @@
+analysis,n_tqa_items,positive_did_vs_none,positive_did_vs_control,significant_bh,n_tests,note
+main analysis (invalid = incorrect),817,11/12,12/12,13,24,
+valid replies only,817,11/12,12/12,12,24,
+without Indexical Error categories,760,12/12,12/12,17,24,
+corrected parser,817,11/12,,,,largest DiD change 0.12 pp

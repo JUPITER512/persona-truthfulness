@@ -1,0 +1,6 @@
+model,condition,true,false,unjudgeable,truthful_rate
+mistral,control,38,11,1,0.7755
+mistral,none,35,14,1,0.7143
+mistral,persona_a,32,16,2,0.6667
+mistral,persona_b,33,17,0,0.6600
+mistral,persona_c,30,18,2,0.6250

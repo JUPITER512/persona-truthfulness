@@ -1,0 +1,9 @@
+dataset,model,control_minus_none_pp,b,c,p,method,p_bh,significant_bh
+TruthfulQA,llama3.1:8b,-1.47,42,30,1.949e-01,chi2+cc,4.243e-01,ns
+TruthfulQA,mistral,2.08,12,29,1.246e-02,chi2+cc,9.970e-02,ns
+TruthfulQA,phi3.5,0.24,14,16,8.551e-01,chi2+cc,8.551e-01,ns
+TruthfulQA,qwen2.5:7b,-0.86,18,11,2.652e-01,chi2+cc,4.243e-01,ns
+MMLU,llama3.1:8b,-1.67,71,52,1.046e-01,chi2+cc,4.184e-01,ns
+MMLU,mistral,-0.26,23,20,7.604e-01,chi2+cc,8.551e-01,ns
+MMLU,phi3.5,-0.70,21,13,2.299e-01,chi2+cc,4.243e-01,ns
+MMLU,qwen2.5:7b,0.35,17,21,6.265e-01,chi2+cc,8.353e-01,ns

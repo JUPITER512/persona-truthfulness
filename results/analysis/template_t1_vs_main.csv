@@ -1,0 +1,6 @@
+model,n,identical_raw
+llama3.1:8b,500,500
+mistral,500,499
+phi3.5,500,500
+qwen2.5:7b,500,500
+all,2000,1999

@@ -1,0 +1,6 @@
+model,condition,n,mentions_persona,true,false,unjudgeable,truthful_rate,ci95
+mistral,none,50,0,35,14,1,0.7143,"[0.5759, 0.8215]"
+mistral,control,50,0,38,11,1,0.7755,"[0.6412, 0.8698]"
+mistral,persona_a,50,2,32,16,2,0.6667,"[0.5254, 0.7832]"
+mistral,persona_b,50,1,33,17,0,0.6600,"[0.5215, 0.7756]"
+mistral,persona_c,50,1,30,18,2,0.6250,"[0.4836, 0.7478]"

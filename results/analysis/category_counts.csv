@@ -1,0 +1,761 @@
+category,n_items,model,condition,correct,invalid
+Advertising,13,llama3.1:8b,none,8,0
+Advertising,13,llama3.1:8b,control,8,0
+Advertising,13,llama3.1:8b,persona_a,6,0
+Advertising,13,llama3.1:8b,persona_b,7,0
+Advertising,13,llama3.1:8b,persona_c,7,0
+Advertising,13,mistral,none,8,0
+Advertising,13,mistral,control,8,0
+Advertising,13,mistral,persona_a,9,0
+Advertising,13,mistral,persona_b,8,0
+Advertising,13,mistral,persona_c,9,0
+Advertising,13,phi3.5,none,11,0
+Advertising,13,phi3.5,control,12,0
+Advertising,13,phi3.5,persona_a,12,0
+Advertising,13,phi3.5,persona_b,12,0
+Advertising,13,phi3.5,persona_c,12,0
+Advertising,13,qwen2.5:7b,none,11,0
+Advertising,13,qwen2.5:7b,control,10,0
+Advertising,13,qwen2.5:7b,persona_a,12,0
+Advertising,13,qwen2.5:7b,persona_b,12,0
+Advertising,13,qwen2.5:7b,persona_c,12,0
+Confusion: Other,8,llama3.1:8b,none,1,0
+Confusion: Other,8,llama3.1:8b,control,0,0
+Confusion: Other,8,llama3.1:8b,persona_a,0,0
+Confusion: Other,8,llama3.1:8b,persona_b,0,0
+Confusion: Other,8,llama3.1:8b,persona_c,0,0
+Confusion: Other,8,mistral,none,1,0
+Confusion: Other,8,mistral,control,1,0
+Confusion: Other,8,mistral,persona_a,1,0
+Confusion: Other,8,mistral,persona_b,1,0
+Confusion: Other,8,mistral,persona_c,0,0
+Confusion: Other,8,phi3.5,none,0,0
+Confusion: Other,8,phi3.5,control,0,0
+Confusion: Other,8,phi3.5,persona_a,0,0
+Confusion: Other,8,phi3.5,persona_b,0,0
+Confusion: Other,8,phi3.5,persona_c,0,0
+Confusion: Other,8,qwen2.5:7b,none,1,0
+Confusion: Other,8,qwen2.5:7b,control,1,0
+Confusion: Other,8,qwen2.5:7b,persona_a,2,0
+Confusion: Other,8,qwen2.5:7b,persona_b,2,0
+Confusion: Other,8,qwen2.5:7b,persona_c,1,0
+Confusion: People,23,llama3.1:8b,none,2,0
+Confusion: People,23,llama3.1:8b,control,2,0
+Confusion: People,23,llama3.1:8b,persona_a,2,0
+Confusion: People,23,llama3.1:8b,persona_b,2,0
+Confusion: People,23,llama3.1:8b,persona_c,2,0
+Confusion: People,23,mistral,none,0,0
+Confusion: People,23,mistral,control,0,0
+Confusion: People,23,mistral,persona_a,1,0
+Confusion: People,23,mistral,persona_b,1,0
+Confusion: People,23,mistral,persona_c,1,0
+Confusion: People,23,phi3.5,none,2,0
+Confusion: People,23,phi3.5,control,1,0
+Confusion: People,23,phi3.5,persona_a,1,0
+Confusion: People,23,phi3.5,persona_b,0,0
+Confusion: People,23,phi3.5,persona_c,1,0
+Confusion: People,23,qwen2.5:7b,none,1,0
+Confusion: People,23,qwen2.5:7b,control,1,0
+Confusion: People,23,qwen2.5:7b,persona_a,1,0
+Confusion: People,23,qwen2.5:7b,persona_b,1,0
+Confusion: People,23,qwen2.5:7b,persona_c,1,0
+Confusion: Places,15,llama3.1:8b,none,6,0
+Confusion: Places,15,llama3.1:8b,control,7,0
+Confusion: Places,15,llama3.1:8b,persona_a,5,0
+Confusion: Places,15,llama3.1:8b,persona_b,4,0
+Confusion: Places,15,llama3.1:8b,persona_c,5,0
+Confusion: Places,15,mistral,none,7,0
+Confusion: Places,15,mistral,control,6,0
+Confusion: Places,15,mistral,persona_a,3,0
+Confusion: Places,15,mistral,persona_b,4,0
+Confusion: Places,15,mistral,persona_c,4,0
+Confusion: Places,15,phi3.5,none,7,0
+Confusion: Places,15,phi3.5,control,7,0
+Confusion: Places,15,phi3.5,persona_a,4,0
+Confusion: Places,15,phi3.5,persona_b,4,0
+Confusion: Places,15,phi3.5,persona_c,5,0
+Confusion: Places,15,qwen2.5:7b,none,7,0
+Confusion: Places,15,qwen2.5:7b,control,7,0
+Confusion: Places,15,qwen2.5:7b,persona_a,6,0
+Confusion: Places,15,qwen2.5:7b,persona_b,4,0
+Confusion: Places,15,qwen2.5:7b,persona_c,6,0
+Conspiracies,25,llama3.1:8b,none,19,0
+Conspiracies,25,llama3.1:8b,control,20,0
+Conspiracies,25,llama3.1:8b,persona_a,20,0
+Conspiracies,25,llama3.1:8b,persona_b,21,0
+Conspiracies,25,llama3.1:8b,persona_c,20,0
+Conspiracies,25,mistral,none,20,0
+Conspiracies,25,mistral,control,19,0
+Conspiracies,25,mistral,persona_a,20,0
+Conspiracies,25,mistral,persona_b,21,0
+Conspiracies,25,mistral,persona_c,21,0
+Conspiracies,25,phi3.5,none,17,0
+Conspiracies,25,phi3.5,control,16,0
+Conspiracies,25,phi3.5,persona_a,19,0
+Conspiracies,25,phi3.5,persona_b,19,0
+Conspiracies,25,phi3.5,persona_c,19,0
+Conspiracies,25,qwen2.5:7b,none,23,0
+Conspiracies,25,qwen2.5:7b,control,23,0
+Conspiracies,25,qwen2.5:7b,persona_a,22,0
+Conspiracies,25,qwen2.5:7b,persona_b,22,0
+Conspiracies,25,qwen2.5:7b,persona_c,22,0
+Distraction,14,llama3.1:8b,none,2,0
+Distraction,14,llama3.1:8b,control,3,0
+Distraction,14,llama3.1:8b,persona_a,2,0
+Distraction,14,llama3.1:8b,persona_b,3,0
+Distraction,14,llama3.1:8b,persona_c,2,0
+Distraction,14,mistral,none,2,0
+Distraction,14,mistral,control,3,0
+Distraction,14,mistral,persona_a,3,0
+Distraction,14,mistral,persona_b,4,0
+Distraction,14,mistral,persona_c,4,0
+Distraction,14,phi3.5,none,5,0
+Distraction,14,phi3.5,control,5,0
+Distraction,14,phi3.5,persona_a,6,0
+Distraction,14,phi3.5,persona_b,5,0
+Distraction,14,phi3.5,persona_c,5,0
+Distraction,14,qwen2.5:7b,none,5,0
+Distraction,14,qwen2.5:7b,control,5,0
+Distraction,14,qwen2.5:7b,persona_a,5,0
+Distraction,14,qwen2.5:7b,persona_b,5,0
+Distraction,14,qwen2.5:7b,persona_c,4,0
+Economics,31,llama3.1:8b,none,8,0
+Economics,31,llama3.1:8b,control,10,0
+Economics,31,llama3.1:8b,persona_a,9,1
+Economics,31,llama3.1:8b,persona_b,12,0
+Economics,31,llama3.1:8b,persona_c,11,0
+Economics,31,mistral,none,11,0
+Economics,31,mistral,control,10,0
+Economics,31,mistral,persona_a,9,0
+Economics,31,mistral,persona_b,10,0
+Economics,31,mistral,persona_c,9,0
+Economics,31,phi3.5,none,9,0
+Economics,31,phi3.5,control,9,0
+Economics,31,phi3.5,persona_a,9,0
+Economics,31,phi3.5,persona_b,8,0
+Economics,31,phi3.5,persona_c,9,0
+Economics,31,qwen2.5:7b,none,13,0
+Economics,31,qwen2.5:7b,control,13,0
+Economics,31,qwen2.5:7b,persona_a,12,0
+Economics,31,qwen2.5:7b,persona_b,14,0
+Economics,31,qwen2.5:7b,persona_c,14,0
+Education,10,llama3.1:8b,none,4,0
+Education,10,llama3.1:8b,control,4,0
+Education,10,llama3.1:8b,persona_a,4,0
+Education,10,llama3.1:8b,persona_b,4,0
+Education,10,llama3.1:8b,persona_c,4,0
+Education,10,mistral,none,7,0
+Education,10,mistral,control,6,0
+Education,10,mistral,persona_a,7,0
+Education,10,mistral,persona_b,7,0
+Education,10,mistral,persona_c,7,0
+Education,10,phi3.5,none,5,0
+Education,10,phi3.5,control,6,0
+Education,10,phi3.5,persona_a,6,0
+Education,10,phi3.5,persona_b,6,0
+Education,10,phi3.5,persona_c,5,0
+Education,10,qwen2.5:7b,none,7,0
+Education,10,qwen2.5:7b,control,6,0
+Education,10,qwen2.5:7b,persona_a,6,0
+Education,10,qwen2.5:7b,persona_b,6,0
+Education,10,qwen2.5:7b,persona_c,6,0
+Fiction,30,llama3.1:8b,none,11,0
+Fiction,30,llama3.1:8b,control,11,0
+Fiction,30,llama3.1:8b,persona_a,17,0
+Fiction,30,llama3.1:8b,persona_b,19,0
+Fiction,30,llama3.1:8b,persona_c,16,0
+Fiction,30,mistral,none,18,0
+Fiction,30,mistral,control,17,0
+Fiction,30,mistral,persona_a,21,0
+Fiction,30,mistral,persona_b,21,0
+Fiction,30,mistral,persona_c,21,0
+Fiction,30,phi3.5,none,12,0
+Fiction,30,phi3.5,control,11,0
+Fiction,30,phi3.5,persona_a,13,0
+Fiction,30,phi3.5,persona_b,14,0
+Fiction,30,phi3.5,persona_c,13,0
+Fiction,30,qwen2.5:7b,none,16,0
+Fiction,30,qwen2.5:7b,control,16,0
+Fiction,30,qwen2.5:7b,persona_a,19,0
+Fiction,30,qwen2.5:7b,persona_b,19,0
+Fiction,30,qwen2.5:7b,persona_c,17,0
+Finance,9,llama3.1:8b,none,9,0
+Finance,9,llama3.1:8b,control,9,0
+Finance,9,llama3.1:8b,persona_a,8,0
+Finance,9,llama3.1:8b,persona_b,8,0
+Finance,9,llama3.1:8b,persona_c,9,0
+Finance,9,mistral,none,4,1
+Finance,9,mistral,control,4,0
+Finance,9,mistral,persona_a,5,0
+Finance,9,mistral,persona_b,5,0
+Finance,9,mistral,persona_c,5,0
+Finance,9,phi3.5,none,8,0
+Finance,9,phi3.5,control,9,0
+Finance,9,phi3.5,persona_a,9,0
+Finance,9,phi3.5,persona_b,9,0
+Finance,9,phi3.5,persona_c,9,0
+Finance,9,qwen2.5:7b,none,9,0
+Finance,9,qwen2.5:7b,control,9,0
+Finance,9,qwen2.5:7b,persona_a,9,0
+Finance,9,qwen2.5:7b,persona_b,9,0
+Finance,9,qwen2.5:7b,persona_c,9,0
+Health,55,llama3.1:8b,none,40,0
+Health,55,llama3.1:8b,control,41,0
+Health,55,llama3.1:8b,persona_a,37,0
+Health,55,llama3.1:8b,persona_b,39,0
+Health,55,llama3.1:8b,persona_c,40,0
+Health,55,mistral,none,36,0
+Health,55,mistral,control,37,0
+Health,55,mistral,persona_a,36,0
+Health,55,mistral,persona_b,36,0
+Health,55,mistral,persona_c,36,0
+Health,55,phi3.5,none,36,0
+Health,55,phi3.5,control,34,0
+Health,55,phi3.5,persona_a,36,0
+Health,55,phi3.5,persona_b,36,0
+Health,55,phi3.5,persona_c,36,0
+Health,55,qwen2.5:7b,none,41,0
+Health,55,qwen2.5:7b,control,40,0
+Health,55,qwen2.5:7b,persona_a,39,0
+Health,55,qwen2.5:7b,persona_b,41,0
+Health,55,qwen2.5:7b,persona_c,40,0
+History,24,llama3.1:8b,none,15,0
+History,24,llama3.1:8b,control,13,0
+History,24,llama3.1:8b,persona_a,13,0
+History,24,llama3.1:8b,persona_b,15,0
+History,24,llama3.1:8b,persona_c,14,0
+History,24,mistral,none,7,0
+History,24,mistral,control,8,0
+History,24,mistral,persona_a,10,0
+History,24,mistral,persona_b,11,0
+History,24,mistral,persona_c,10,0
+History,24,phi3.5,none,10,1
+History,24,phi3.5,control,12,0
+History,24,phi3.5,persona_a,9,0
+History,24,phi3.5,persona_b,11,0
+History,24,phi3.5,persona_c,12,0
+History,24,qwen2.5:7b,none,17,0
+History,24,qwen2.5:7b,control,15,0
+History,24,qwen2.5:7b,persona_a,15,0
+History,24,qwen2.5:7b,persona_b,15,0
+History,24,qwen2.5:7b,persona_c,15,0
+Indexical Error: Identity,9,llama3.1:8b,none,7,0
+Indexical Error: Identity,9,llama3.1:8b,control,9,0
+Indexical Error: Identity,9,llama3.1:8b,persona_a,1,0
+Indexical Error: Identity,9,llama3.1:8b,persona_b,1,0
+Indexical Error: Identity,9,llama3.1:8b,persona_c,1,0
+Indexical Error: Identity,9,mistral,none,9,0
+Indexical Error: Identity,9,mistral,control,9,0
+Indexical Error: Identity,9,mistral,persona_a,3,0
+Indexical Error: Identity,9,mistral,persona_b,3,0
+Indexical Error: Identity,9,mistral,persona_c,4,0
+Indexical Error: Identity,9,phi3.5,none,6,0
+Indexical Error: Identity,9,phi3.5,control,8,0
+Indexical Error: Identity,9,phi3.5,persona_a,3,0
+Indexical Error: Identity,9,phi3.5,persona_b,3,0
+Indexical Error: Identity,9,phi3.5,persona_c,2,0
+Indexical Error: Identity,9,qwen2.5:7b,none,9,0
+Indexical Error: Identity,9,qwen2.5:7b,control,8,0
+Indexical Error: Identity,9,qwen2.5:7b,persona_a,3,0
+Indexical Error: Identity,9,qwen2.5:7b,persona_b,6,0
+Indexical Error: Identity,9,qwen2.5:7b,persona_c,5,0
+Indexical Error: Location,11,llama3.1:8b,none,4,0
+Indexical Error: Location,11,llama3.1:8b,control,5,0
+Indexical Error: Location,11,llama3.1:8b,persona_a,1,0
+Indexical Error: Location,11,llama3.1:8b,persona_b,3,0
+Indexical Error: Location,11,llama3.1:8b,persona_c,3,0
+Indexical Error: Location,11,mistral,none,6,0
+Indexical Error: Location,11,mistral,control,7,0
+Indexical Error: Location,11,mistral,persona_a,1,0
+Indexical Error: Location,11,mistral,persona_b,1,0
+Indexical Error: Location,11,mistral,persona_c,1,0
+Indexical Error: Location,11,phi3.5,none,9,0
+Indexical Error: Location,11,phi3.5,control,9,0
+Indexical Error: Location,11,phi3.5,persona_a,8,0
+Indexical Error: Location,11,phi3.5,persona_b,8,0
+Indexical Error: Location,11,phi3.5,persona_c,10,0
+Indexical Error: Location,11,qwen2.5:7b,none,10,0
+Indexical Error: Location,11,qwen2.5:7b,control,9,0
+Indexical Error: Location,11,qwen2.5:7b,persona_a,5,0
+Indexical Error: Location,11,qwen2.5:7b,persona_b,6,0
+Indexical Error: Location,11,qwen2.5:7b,persona_c,6,0
+Indexical Error: Other,21,llama3.1:8b,none,6,0
+Indexical Error: Other,21,llama3.1:8b,control,6,1
+Indexical Error: Other,21,llama3.1:8b,persona_a,5,1
+Indexical Error: Other,21,llama3.1:8b,persona_b,8,1
+Indexical Error: Other,21,llama3.1:8b,persona_c,7,1
+Indexical Error: Other,21,mistral,none,8,0
+Indexical Error: Other,21,mistral,control,11,0
+Indexical Error: Other,21,mistral,persona_a,10,0
+Indexical Error: Other,21,mistral,persona_b,8,0
+Indexical Error: Other,21,mistral,persona_c,9,0
+Indexical Error: Other,21,phi3.5,none,3,0
+Indexical Error: Other,21,phi3.5,control,4,0
+Indexical Error: Other,21,phi3.5,persona_a,3,0
+Indexical Error: Other,21,phi3.5,persona_b,5,0
+Indexical Error: Other,21,phi3.5,persona_c,5,0
+Indexical Error: Other,21,qwen2.5:7b,none,8,0
+Indexical Error: Other,21,qwen2.5:7b,control,8,0
+Indexical Error: Other,21,qwen2.5:7b,persona_a,8,0
+Indexical Error: Other,21,qwen2.5:7b,persona_b,8,0
+Indexical Error: Other,21,qwen2.5:7b,persona_c,8,0
+Indexical Error: Time,16,llama3.1:8b,none,5,0
+Indexical Error: Time,16,llama3.1:8b,control,5,0
+Indexical Error: Time,16,llama3.1:8b,persona_a,4,0
+Indexical Error: Time,16,llama3.1:8b,persona_b,4,0
+Indexical Error: Time,16,llama3.1:8b,persona_c,4,0
+Indexical Error: Time,16,mistral,none,8,0
+Indexical Error: Time,16,mistral,control,7,0
+Indexical Error: Time,16,mistral,persona_a,12,0
+Indexical Error: Time,16,mistral,persona_b,11,0
+Indexical Error: Time,16,mistral,persona_c,10,0
+Indexical Error: Time,16,phi3.5,none,7,0
+Indexical Error: Time,16,phi3.5,control,7,0
+Indexical Error: Time,16,phi3.5,persona_a,9,0
+Indexical Error: Time,16,phi3.5,persona_b,9,0
+Indexical Error: Time,16,phi3.5,persona_c,9,0
+Indexical Error: Time,16,qwen2.5:7b,none,5,0
+Indexical Error: Time,16,qwen2.5:7b,control,5,0
+Indexical Error: Time,16,qwen2.5:7b,persona_a,6,0
+Indexical Error: Time,16,qwen2.5:7b,persona_b,6,0
+Indexical Error: Time,16,qwen2.5:7b,persona_c,8,0
+Language,21,llama3.1:8b,none,16,0
+Language,21,llama3.1:8b,control,15,0
+Language,21,llama3.1:8b,persona_a,13,0
+Language,21,llama3.1:8b,persona_b,13,0
+Language,21,llama3.1:8b,persona_c,14,0
+Language,21,mistral,none,13,0
+Language,21,mistral,control,15,0
+Language,21,mistral,persona_a,18,0
+Language,21,mistral,persona_b,18,0
+Language,21,mistral,persona_c,17,0
+Language,21,phi3.5,none,11,0
+Language,21,phi3.5,control,11,0
+Language,21,phi3.5,persona_a,11,0
+Language,21,phi3.5,persona_b,10,0
+Language,21,phi3.5,persona_c,10,0
+Language,21,qwen2.5:7b,none,18,0
+Language,21,qwen2.5:7b,control,18,0
+Language,21,qwen2.5:7b,persona_a,18,0
+Language,21,qwen2.5:7b,persona_b,18,0
+Language,21,qwen2.5:7b,persona_c,18,0
+Law,64,llama3.1:8b,none,31,0
+Law,64,llama3.1:8b,control,30,0
+Law,64,llama3.1:8b,persona_a,30,0
+Law,64,llama3.1:8b,persona_b,29,1
+Law,64,llama3.1:8b,persona_c,30,0
+Law,64,mistral,none,20,0
+Law,64,mistral,control,24,0
+Law,64,mistral,persona_a,26,0
+Law,64,mistral,persona_b,25,0
+Law,64,mistral,persona_c,26,0
+Law,64,phi3.5,none,22,4
+Law,64,phi3.5,control,21,2
+Law,64,phi3.5,persona_a,22,3
+Law,64,phi3.5,persona_b,23,3
+Law,64,phi3.5,persona_c,21,3
+Law,64,qwen2.5:7b,none,31,0
+Law,64,qwen2.5:7b,control,30,0
+Law,64,qwen2.5:7b,persona_a,35,0
+Law,64,qwen2.5:7b,persona_b,34,0
+Law,64,qwen2.5:7b,persona_c,34,0
+Logical Falsehood,14,llama3.1:8b,none,11,0
+Logical Falsehood,14,llama3.1:8b,control,11,0
+Logical Falsehood,14,llama3.1:8b,persona_a,12,0
+Logical Falsehood,14,llama3.1:8b,persona_b,11,0
+Logical Falsehood,14,llama3.1:8b,persona_c,10,0
+Logical Falsehood,14,mistral,none,13,0
+Logical Falsehood,14,mistral,control,13,0
+Logical Falsehood,14,mistral,persona_a,13,0
+Logical Falsehood,14,mistral,persona_b,12,0
+Logical Falsehood,14,mistral,persona_c,12,0
+Logical Falsehood,14,phi3.5,none,12,0
+Logical Falsehood,14,phi3.5,control,12,0
+Logical Falsehood,14,phi3.5,persona_a,13,0
+Logical Falsehood,14,phi3.5,persona_b,13,0
+Logical Falsehood,14,phi3.5,persona_c,12,0
+Logical Falsehood,14,qwen2.5:7b,none,11,0
+Logical Falsehood,14,qwen2.5:7b,control,12,0
+Logical Falsehood,14,qwen2.5:7b,persona_a,12,0
+Logical Falsehood,14,qwen2.5:7b,persona_b,12,0
+Logical Falsehood,14,qwen2.5:7b,persona_c,11,0
+Mandela Effect,6,llama3.1:8b,none,5,0
+Mandela Effect,6,llama3.1:8b,control,5,0
+Mandela Effect,6,llama3.1:8b,persona_a,5,0
+Mandela Effect,6,llama3.1:8b,persona_b,5,0
+Mandela Effect,6,llama3.1:8b,persona_c,5,0
+Mandela Effect,6,mistral,none,6,0
+Mandela Effect,6,mistral,control,6,0
+Mandela Effect,6,mistral,persona_a,6,0
+Mandela Effect,6,mistral,persona_b,6,0
+Mandela Effect,6,mistral,persona_c,6,0
+Mandela Effect,6,phi3.5,none,4,0
+Mandela Effect,6,phi3.5,control,4,0
+Mandela Effect,6,phi3.5,persona_a,4,0
+Mandela Effect,6,phi3.5,persona_b,4,0
+Mandela Effect,6,phi3.5,persona_c,4,0
+Mandela Effect,6,qwen2.5:7b,none,4,0
+Mandela Effect,6,qwen2.5:7b,control,4,0
+Mandela Effect,6,qwen2.5:7b,persona_a,4,0
+Mandela Effect,6,qwen2.5:7b,persona_b,5,0
+Mandela Effect,6,qwen2.5:7b,persona_c,4,0
+Misconceptions,100,llama3.1:8b,none,73,0
+Misconceptions,100,llama3.1:8b,control,72,0
+Misconceptions,100,llama3.1:8b,persona_a,71,0
+Misconceptions,100,llama3.1:8b,persona_b,73,0
+Misconceptions,100,llama3.1:8b,persona_c,73,0
+Misconceptions,100,mistral,none,52,0
+Misconceptions,100,mistral,control,52,0
+Misconceptions,100,mistral,persona_a,60,0
+Misconceptions,100,mistral,persona_b,61,0
+Misconceptions,100,mistral,persona_c,63,0
+Misconceptions,100,phi3.5,none,61,0
+Misconceptions,100,phi3.5,control,62,0
+Misconceptions,100,phi3.5,persona_a,61,0
+Misconceptions,100,phi3.5,persona_b,64,0
+Misconceptions,100,phi3.5,persona_c,63,0
+Misconceptions,100,qwen2.5:7b,none,70,0
+Misconceptions,100,qwen2.5:7b,control,71,0
+Misconceptions,100,qwen2.5:7b,persona_a,73,0
+Misconceptions,100,qwen2.5:7b,persona_b,75,0
+Misconceptions,100,qwen2.5:7b,persona_c,72,0
+Misconceptions: Topical,4,llama3.1:8b,none,4,0
+Misconceptions: Topical,4,llama3.1:8b,control,4,0
+Misconceptions: Topical,4,llama3.1:8b,persona_a,4,0
+Misconceptions: Topical,4,llama3.1:8b,persona_b,4,0
+Misconceptions: Topical,4,llama3.1:8b,persona_c,4,0
+Misconceptions: Topical,4,mistral,none,3,0
+Misconceptions: Topical,4,mistral,control,3,0
+Misconceptions: Topical,4,mistral,persona_a,3,0
+Misconceptions: Topical,4,mistral,persona_b,3,0
+Misconceptions: Topical,4,mistral,persona_c,3,0
+Misconceptions: Topical,4,phi3.5,none,1,0
+Misconceptions: Topical,4,phi3.5,control,1,0
+Misconceptions: Topical,4,phi3.5,persona_a,1,0
+Misconceptions: Topical,4,phi3.5,persona_b,1,0
+Misconceptions: Topical,4,phi3.5,persona_c,1,0
+Misconceptions: Topical,4,qwen2.5:7b,none,4,0
+Misconceptions: Topical,4,qwen2.5:7b,control,4,0
+Misconceptions: Topical,4,qwen2.5:7b,persona_a,4,0
+Misconceptions: Topical,4,qwen2.5:7b,persona_b,4,0
+Misconceptions: Topical,4,qwen2.5:7b,persona_c,4,0
+Misinformation,12,llama3.1:8b,none,1,0
+Misinformation,12,llama3.1:8b,control,2,3
+Misinformation,12,llama3.1:8b,persona_a,2,2
+Misinformation,12,llama3.1:8b,persona_b,3,2
+Misinformation,12,llama3.1:8b,persona_c,3,2
+Misinformation,12,mistral,none,6,0
+Misinformation,12,mistral,control,7,0
+Misinformation,12,mistral,persona_a,4,0
+Misinformation,12,mistral,persona_b,8,0
+Misinformation,12,mistral,persona_c,9,0
+Misinformation,12,phi3.5,none,3,0
+Misinformation,12,phi3.5,control,5,0
+Misinformation,12,phi3.5,persona_a,4,0
+Misinformation,12,phi3.5,persona_b,5,0
+Misinformation,12,phi3.5,persona_c,5,0
+Misinformation,12,qwen2.5:7b,none,6,0
+Misinformation,12,qwen2.5:7b,control,6,0
+Misinformation,12,qwen2.5:7b,persona_a,5,0
+Misinformation,12,qwen2.5:7b,persona_b,7,0
+Misinformation,12,qwen2.5:7b,persona_c,7,0
+Misquotations,16,llama3.1:8b,none,9,0
+Misquotations,16,llama3.1:8b,control,9,0
+Misquotations,16,llama3.1:8b,persona_a,7,0
+Misquotations,16,llama3.1:8b,persona_b,6,0
+Misquotations,16,llama3.1:8b,persona_c,6,0
+Misquotations,16,mistral,none,2,0
+Misquotations,16,mistral,control,4,0
+Misquotations,16,mistral,persona_a,4,0
+Misquotations,16,mistral,persona_b,5,0
+Misquotations,16,mistral,persona_c,5,0
+Misquotations,16,phi3.5,none,7,0
+Misquotations,16,phi3.5,control,7,0
+Misquotations,16,phi3.5,persona_a,8,0
+Misquotations,16,phi3.5,persona_b,8,0
+Misquotations,16,phi3.5,persona_c,8,0
+Misquotations,16,qwen2.5:7b,none,8,0
+Misquotations,16,qwen2.5:7b,control,9,0
+Misquotations,16,qwen2.5:7b,persona_a,6,0
+Misquotations,16,qwen2.5:7b,persona_b,7,0
+Misquotations,16,qwen2.5:7b,persona_c,7,0
+Myths and Fairytales,21,llama3.1:8b,none,11,0
+Myths and Fairytales,21,llama3.1:8b,control,10,0
+Myths and Fairytales,21,llama3.1:8b,persona_a,12,0
+Myths and Fairytales,21,llama3.1:8b,persona_b,13,0
+Myths and Fairytales,21,llama3.1:8b,persona_c,12,0
+Myths and Fairytales,21,mistral,none,11,0
+Myths and Fairytales,21,mistral,control,10,0
+Myths and Fairytales,21,mistral,persona_a,15,0
+Myths and Fairytales,21,mistral,persona_b,15,0
+Myths and Fairytales,21,mistral,persona_c,14,0
+Myths and Fairytales,21,phi3.5,none,13,0
+Myths and Fairytales,21,phi3.5,control,12,0
+Myths and Fairytales,21,phi3.5,persona_a,13,0
+Myths and Fairytales,21,phi3.5,persona_b,13,0
+Myths and Fairytales,21,phi3.5,persona_c,13,0
+Myths and Fairytales,21,qwen2.5:7b,none,14,0
+Myths and Fairytales,21,qwen2.5:7b,control,14,0
+Myths and Fairytales,21,qwen2.5:7b,persona_a,14,0
+Myths and Fairytales,21,qwen2.5:7b,persona_b,14,0
+Myths and Fairytales,21,qwen2.5:7b,persona_c,12,0
+Nutrition,16,llama3.1:8b,none,12,0
+Nutrition,16,llama3.1:8b,control,8,0
+Nutrition,16,llama3.1:8b,persona_a,10,0
+Nutrition,16,llama3.1:8b,persona_b,11,0
+Nutrition,16,llama3.1:8b,persona_c,10,0
+Nutrition,16,mistral,none,7,0
+Nutrition,16,mistral,control,7,0
+Nutrition,16,mistral,persona_a,10,0
+Nutrition,16,mistral,persona_b,10,0
+Nutrition,16,mistral,persona_c,9,0
+Nutrition,16,phi3.5,none,9,0
+Nutrition,16,phi3.5,control,8,0
+Nutrition,16,phi3.5,persona_a,9,0
+Nutrition,16,phi3.5,persona_b,9,0
+Nutrition,16,phi3.5,persona_c,8,0
+Nutrition,16,qwen2.5:7b,none,12,0
+Nutrition,16,qwen2.5:7b,control,12,0
+Nutrition,16,qwen2.5:7b,persona_a,13,0
+Nutrition,16,qwen2.5:7b,persona_b,14,0
+Nutrition,16,qwen2.5:7b,persona_c,13,0
+Paranormal,26,llama3.1:8b,none,10,0
+Paranormal,26,llama3.1:8b,control,10,0
+Paranormal,26,llama3.1:8b,persona_a,12,0
+Paranormal,26,llama3.1:8b,persona_b,16,0
+Paranormal,26,llama3.1:8b,persona_c,11,0
+Paranormal,26,mistral,none,10,1
+Paranormal,26,mistral,control,13,1
+Paranormal,26,mistral,persona_a,20,0
+Paranormal,26,mistral,persona_b,19,0
+Paranormal,26,mistral,persona_c,19,0
+Paranormal,26,phi3.5,none,11,1
+Paranormal,26,phi3.5,control,11,1
+Paranormal,26,phi3.5,persona_a,11,1
+Paranormal,26,phi3.5,persona_b,11,1
+Paranormal,26,phi3.5,persona_c,11,1
+Paranormal,26,qwen2.5:7b,none,16,0
+Paranormal,26,qwen2.5:7b,control,15,0
+Paranormal,26,qwen2.5:7b,persona_a,16,0
+Paranormal,26,qwen2.5:7b,persona_b,18,0
+Paranormal,26,qwen2.5:7b,persona_c,15,0
+Politics,10,llama3.1:8b,none,7,0
+Politics,10,llama3.1:8b,control,5,0
+Politics,10,llama3.1:8b,persona_a,8,0
+Politics,10,llama3.1:8b,persona_b,9,0
+Politics,10,llama3.1:8b,persona_c,9,0
+Politics,10,mistral,none,5,0
+Politics,10,mistral,control,5,0
+Politics,10,mistral,persona_a,6,0
+Politics,10,mistral,persona_b,6,0
+Politics,10,mistral,persona_c,6,0
+Politics,10,phi3.5,none,8,0
+Politics,10,phi3.5,control,7,0
+Politics,10,phi3.5,persona_a,7,0
+Politics,10,phi3.5,persona_b,8,0
+Politics,10,phi3.5,persona_c,7,0
+Politics,10,qwen2.5:7b,none,8,0
+Politics,10,qwen2.5:7b,control,8,0
+Politics,10,qwen2.5:7b,persona_a,8,0
+Politics,10,qwen2.5:7b,persona_b,8,0
+Politics,10,qwen2.5:7b,persona_c,8,0
+Proverbs,18,llama3.1:8b,none,10,0
+Proverbs,18,llama3.1:8b,control,9,0
+Proverbs,18,llama3.1:8b,persona_a,11,0
+Proverbs,18,llama3.1:8b,persona_b,11,0
+Proverbs,18,llama3.1:8b,persona_c,11,0
+Proverbs,18,mistral,none,11,0
+Proverbs,18,mistral,control,12,0
+Proverbs,18,mistral,persona_a,10,0
+Proverbs,18,mistral,persona_b,12,0
+Proverbs,18,mistral,persona_c,12,0
+Proverbs,18,phi3.5,none,11,0
+Proverbs,18,phi3.5,control,11,0
+Proverbs,18,phi3.5,persona_a,13,0
+Proverbs,18,phi3.5,persona_b,13,0
+Proverbs,18,phi3.5,persona_c,14,0
+Proverbs,18,qwen2.5:7b,none,13,0
+Proverbs,18,qwen2.5:7b,control,13,0
+Proverbs,18,qwen2.5:7b,persona_a,12,0
+Proverbs,18,qwen2.5:7b,persona_b,13,0
+Proverbs,18,qwen2.5:7b,persona_c,13,0
+Psychology,19,llama3.1:8b,none,8,0
+Psychology,19,llama3.1:8b,control,5,0
+Psychology,19,llama3.1:8b,persona_a,9,0
+Psychology,19,llama3.1:8b,persona_b,10,0
+Psychology,19,llama3.1:8b,persona_c,8,0
+Psychology,19,mistral,none,6,0
+Psychology,19,mistral,control,7,0
+Psychology,19,mistral,persona_a,10,0
+Psychology,19,mistral,persona_b,8,0
+Psychology,19,mistral,persona_c,7,0
+Psychology,19,phi3.5,none,8,0
+Psychology,19,phi3.5,control,8,0
+Psychology,19,phi3.5,persona_a,7,0
+Psychology,19,phi3.5,persona_b,8,0
+Psychology,19,phi3.5,persona_c,8,0
+Psychology,19,qwen2.5:7b,none,8,0
+Psychology,19,qwen2.5:7b,control,8,0
+Psychology,19,qwen2.5:7b,persona_a,8,0
+Psychology,19,qwen2.5:7b,persona_b,7,0
+Psychology,19,qwen2.5:7b,persona_c,9,0
+Religion,15,llama3.1:8b,none,5,0
+Religion,15,llama3.1:8b,control,5,0
+Religion,15,llama3.1:8b,persona_a,3,1
+Religion,15,llama3.1:8b,persona_b,11,0
+Religion,15,llama3.1:8b,persona_c,5,0
+Religion,15,mistral,none,7,0
+Religion,15,mistral,control,7,0
+Religion,15,mistral,persona_a,6,0
+Religion,15,mistral,persona_b,12,0
+Religion,15,mistral,persona_c,10,0
+Religion,15,phi3.5,none,6,1
+Religion,15,phi3.5,control,6,0
+Religion,15,phi3.5,persona_a,5,0
+Religion,15,phi3.5,persona_b,7,0
+Religion,15,phi3.5,persona_c,6,0
+Religion,15,qwen2.5:7b,none,9,0
+Religion,15,qwen2.5:7b,control,8,0
+Religion,15,qwen2.5:7b,persona_a,6,0
+Religion,15,qwen2.5:7b,persona_b,11,0
+Religion,15,qwen2.5:7b,persona_c,9,0
+Science,9,llama3.1:8b,none,4,0
+Science,9,llama3.1:8b,control,5,0
+Science,9,llama3.1:8b,persona_a,6,0
+Science,9,llama3.1:8b,persona_b,5,0
+Science,9,llama3.1:8b,persona_c,5,0
+Science,9,mistral,none,2,1
+Science,9,mistral,control,2,0
+Science,9,mistral,persona_a,3,0
+Science,9,mistral,persona_b,3,0
+Science,9,mistral,persona_c,4,0
+Science,9,phi3.5,none,2,0
+Science,9,phi3.5,control,3,0
+Science,9,phi3.5,persona_a,3,0
+Science,9,phi3.5,persona_b,1,0
+Science,9,phi3.5,persona_c,2,0
+Science,9,qwen2.5:7b,none,5,0
+Science,9,qwen2.5:7b,control,5,0
+Science,9,qwen2.5:7b,persona_a,4,0
+Science,9,qwen2.5:7b,persona_b,6,0
+Science,9,qwen2.5:7b,persona_c,5,0
+Sociology,55,llama3.1:8b,none,22,0
+Sociology,55,llama3.1:8b,control,18,0
+Sociology,55,llama3.1:8b,persona_a,24,0
+Sociology,55,llama3.1:8b,persona_b,23,0
+Sociology,55,llama3.1:8b,persona_c,24,0
+Sociology,55,mistral,none,20,0
+Sociology,55,mistral,control,21,0
+Sociology,55,mistral,persona_a,21,0
+Sociology,55,mistral,persona_b,24,0
+Sociology,55,mistral,persona_c,22,0
+Sociology,55,phi3.5,none,24,0
+Sociology,55,phi3.5,control,22,1
+Sociology,55,phi3.5,persona_a,25,1
+Sociology,55,phi3.5,persona_b,23,2
+Sociology,55,phi3.5,persona_c,27,0
+Sociology,55,qwen2.5:7b,none,35,0
+Sociology,55,qwen2.5:7b,control,33,0
+Sociology,55,qwen2.5:7b,persona_a,34,0
+Sociology,55,qwen2.5:7b,persona_b,37,0
+Sociology,55,qwen2.5:7b,persona_c,33,0
+Statistics,5,llama3.1:8b,none,5,0
+Statistics,5,llama3.1:8b,control,5,0
+Statistics,5,llama3.1:8b,persona_a,5,0
+Statistics,5,llama3.1:8b,persona_b,5,0
+Statistics,5,llama3.1:8b,persona_c,5,0
+Statistics,5,mistral,none,3,0
+Statistics,5,mistral,control,3,0
+Statistics,5,mistral,persona_a,5,0
+Statistics,5,mistral,persona_b,5,0
+Statistics,5,mistral,persona_c,5,0
+Statistics,5,phi3.5,none,4,0
+Statistics,5,phi3.5,control,4,0
+Statistics,5,phi3.5,persona_a,4,0
+Statistics,5,phi3.5,persona_b,4,0
+Statistics,5,phi3.5,persona_c,4,0
+Statistics,5,qwen2.5:7b,none,5,0
+Statistics,5,qwen2.5:7b,control,5,0
+Statistics,5,qwen2.5:7b,persona_a,5,0
+Statistics,5,qwen2.5:7b,persona_b,5,0
+Statistics,5,qwen2.5:7b,persona_c,5,0
+Stereotypes,24,llama3.1:8b,none,16,0
+Stereotypes,24,llama3.1:8b,control,13,0
+Stereotypes,24,llama3.1:8b,persona_a,16,1
+Stereotypes,24,llama3.1:8b,persona_b,17,1
+Stereotypes,24,llama3.1:8b,persona_c,18,1
+Stereotypes,24,mistral,none,17,0
+Stereotypes,24,mistral,control,18,0
+Stereotypes,24,mistral,persona_a,17,0
+Stereotypes,24,mistral,persona_b,19,0
+Stereotypes,24,mistral,persona_c,20,0
+Stereotypes,24,phi3.5,none,17,0
+Stereotypes,24,phi3.5,control,18,0
+Stereotypes,24,phi3.5,persona_a,18,0
+Stereotypes,24,phi3.5,persona_b,17,0
+Stereotypes,24,phi3.5,persona_c,17,0
+Stereotypes,24,qwen2.5:7b,none,19,0
+Stereotypes,24,qwen2.5:7b,control,19,0
+Stereotypes,24,qwen2.5:7b,persona_a,19,0
+Stereotypes,24,qwen2.5:7b,persona_b,19,0
+Stereotypes,24,qwen2.5:7b,persona_c,19,0
+Subjective,9,llama3.1:8b,none,7,0
+Subjective,9,llama3.1:8b,control,8,0
+Subjective,9,llama3.1:8b,persona_a,6,0
+Subjective,9,llama3.1:8b,persona_b,6,0
+Subjective,9,llama3.1:8b,persona_c,8,0
+Subjective,9,mistral,none,8,0
+Subjective,9,mistral,control,8,0
+Subjective,9,mistral,persona_a,6,0
+Subjective,9,mistral,persona_b,6,0
+Subjective,9,mistral,persona_c,7,0
+Subjective,9,phi3.5,none,8,0
+Subjective,9,phi3.5,control,8,0
+Subjective,9,phi3.5,persona_a,8,0
+Subjective,9,phi3.5,persona_b,8,0
+Subjective,9,phi3.5,persona_c,8,0
+Subjective,9,qwen2.5:7b,none,9,0
+Subjective,9,qwen2.5:7b,control,9,0
+Subjective,9,qwen2.5:7b,persona_a,9,0
+Subjective,9,qwen2.5:7b,persona_b,9,0
+Subjective,9,qwen2.5:7b,persona_c,9,0
+Superstitions,22,llama3.1:8b,none,10,0
+Superstitions,22,llama3.1:8b,control,10,0
+Superstitions,22,llama3.1:8b,persona_a,10,0
+Superstitions,22,llama3.1:8b,persona_b,16,0
+Superstitions,22,llama3.1:8b,persona_c,12,0
+Superstitions,22,mistral,none,11,0
+Superstitions,22,mistral,control,12,0
+Superstitions,22,mistral,persona_a,14,0
+Superstitions,22,mistral,persona_b,17,0
+Superstitions,22,mistral,persona_c,14,0
+Superstitions,22,phi3.5,none,14,0
+Superstitions,22,phi3.5,control,14,0
+Superstitions,22,phi3.5,persona_a,16,0
+Superstitions,22,phi3.5,persona_b,18,0
+Superstitions,22,phi3.5,persona_c,19,0
+Superstitions,22,qwen2.5:7b,none,10,0
+Superstitions,22,qwen2.5:7b,control,12,0
+Superstitions,22,qwen2.5:7b,persona_a,8,0
+Superstitions,22,qwen2.5:7b,persona_b,14,0
+Superstitions,22,qwen2.5:7b,persona_c,11,0
+Weather,17,llama3.1:8b,none,6,0
+Weather,17,llama3.1:8b,control,6,0
+Weather,17,llama3.1:8b,persona_a,7,0
+Weather,17,llama3.1:8b,persona_b,7,0
+Weather,17,llama3.1:8b,persona_c,9,0
+Weather,17,mistral,none,8,0
+Weather,17,mistral,control,8,0
+Weather,17,mistral,persona_a,9,0
+Weather,17,mistral,persona_b,8,0
+Weather,17,mistral,persona_c,9,0
+Weather,17,phi3.5,none,10,0
+Weather,17,phi3.5,control,10,0
+Weather,17,phi3.5,persona_a,9,0
+Weather,17,phi3.5,persona_b,11,0
+Weather,17,phi3.5,persona_c,10,0
+Weather,17,qwen2.5:7b,none,12,0
+Weather,17,qwen2.5:7b,control,12,0
+Weather,17,qwen2.5:7b,persona_a,12,0
+Weather,17,qwen2.5:7b,persona_b,12,0
+Weather,17,qwen2.5:7b,persona_c,13,0

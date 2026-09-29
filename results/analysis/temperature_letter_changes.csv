@@ -1,0 +1,16 @@
+file,model,n,letters_changed
+temp_1.jsonl,llama3.1:8b,500,256
+temp_1.jsonl,mistral,500,97
+temp_1.jsonl,phi3.5,500,138
+temp_1.jsonl,qwen2.5:7b,500,50
+temp_1.jsonl,all,2000,541
+temp_2.jsonl,llama3.1:8b,500,0
+temp_2.jsonl,mistral,500,1
+temp_2.jsonl,phi3.5,500,6
+temp_2.jsonl,qwen2.5:7b,500,0
+temp_2.jsonl,all,2000,7
+temp_3.jsonl,llama3.1:8b,500,0
+temp_3.jsonl,mistral,500,1
+temp_3.jsonl,phi3.5,500,3
+temp_3.jsonl,qwen2.5:7b,500,0
+temp_3.jsonl,all,2000,4

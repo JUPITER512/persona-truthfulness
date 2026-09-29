@@ -1,0 +1,25 @@
+model,measure,n,value,detail
+llama3.1:8b,cochran_q_paraphrases,100,22.714,p=6.871e-03 p_bh=2.748e-02 significant
+mistral,cochran_q_paraphrases,100,14.955,p=9.218e-02 p_bh=1.844e-01 ns
+phi3.5,cochran_q_paraphrases,100,6.592,p=6.796e-01 p_bh=6.796e-01 ns
+qwen2.5:7b,cochran_q_paraphrases,100,12.303,p=1.968e-01 p_bh=2.624e-01 ns
+llama3.1:8b,none,100,0.4600,
+llama3.1:8b,control,100,0.4500,
+llama3.1:8b,persona_a,100,0.5200,
+llama3.1:8b,persona_b,100,0.5000,
+llama3.1:8b,persona_c,100,0.5300,
+mistral,none,100,0.5000,
+mistral,control,100,0.4900,
+mistral,persona_a,100,0.4700,
+mistral,persona_b,100,0.5000,
+mistral,persona_c,100,0.5200,
+phi3.5,none,100,0.5100,
+phi3.5,control,100,0.5000,
+phi3.5,persona_a,100,0.5200,
+phi3.5,persona_b,100,0.5500,
+phi3.5,persona_c,100,0.5500,
+qwen2.5:7b,none,100,0.6700,
+qwen2.5:7b,control,100,0.6600,
+qwen2.5:7b,persona_a,100,0.6000,
+qwen2.5:7b,persona_b,100,0.6900,
+qwen2.5:7b,persona_c,100,0.6500,

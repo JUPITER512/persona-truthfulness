@@ -1,0 +1,6 @@
+model,condition,n,mc_correct
+mistral,none,50,27
+mistral,control,50,26
+mistral,persona_a,50,27
+mistral,persona_b,50,27
+mistral,persona_c,50,29
